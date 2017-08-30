@@ -9,6 +9,17 @@ import Blog from './Blog';
 
 
 export default class Main extends Component{
+    constructor(props) {
+        super(props);
+        this.state = {
+            navColor: ''
+        }
+    }
+
+     setNavColor = (color) => {
+        this.setState({navColor: color})
+    }
+
     render(){
         return(
                 <Router>

@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
+import { setNav } from '../redux/blog';
 
-export default class Navigation extends Component {
+class Navigation extends Component {
+  constructor(props) {
+    super(props);
+
+  }
   render() {
     return (
       <div className="navbar-fixed">
-        <nav className="transparent z-depth-0 nav-color">
+        <nav className= {this.props.color ? "transparent z-depth-0 nav-color" : "transparent z-depth-0"}>
           <div className="nav-wrapper">
             <div className="row">
               <div className="col s12">
@@ -81,3 +87,10 @@ export default class Navigation extends Component {
     );
   }
 }
+
+const mapStateToProps = (state) => {
+    return {
+      color: state.blog.color}
+}
+
+export default connect(mapStateToProps, null)(Navigation)

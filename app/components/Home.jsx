@@ -1,6 +1,15 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { fetchBlogs, setNav } from '../redux/blog';
 
-export default class Home extends Component {
+class Home extends Component {
+    constructor(props) {
+        super(props);
+
+    }
+    componentDidMount() {
+        this.props.setColor('')
+    }
     render() {
         return (<div><div id="index-banner" className="parallax-container">
     <div className="section no-pad-bot">
@@ -211,3 +220,15 @@ export default class Home extends Component {
 )
     }
 }
+
+
+const mapStateToProps = (state) => {
+    return {
+      color: state.blog.color}
+}
+
+const mapDispatchToProps = (dispatch, ownProps) => ({
+  setColor: (color) => dispatch(setNav(color))
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(Home)

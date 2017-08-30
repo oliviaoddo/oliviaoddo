@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
-import { fetchBlogs } from '../redux/blog';
+import { fetchBlogs, setNav } from '../redux/blog';
 
 
 class Blog extends Component {
@@ -10,6 +10,7 @@ class Blog extends Component {
   }
   componentDidMount() {
     this.props.fetchBlogs();
+    this.props.setColor('dark')
   }
   render() {
     console.log("STATE",this.props)
@@ -43,11 +44,13 @@ class Blog extends Component {
 
 const mapStateToProps = (state) => {
     return {
-      blogs: state.blog.blogs}
+      blogs: state.blog.blogs,
+      color: state.blog.color}
 }
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
-  fetchBlogs: () => dispatch(fetchBlogs())
+  fetchBlogs: () => dispatch(fetchBlogs()),
+  setColor: (color) => dispatch(setNav(color))
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(Blog)
