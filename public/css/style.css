@@ -28,6 +28,13 @@ p {
   color: #424242;
 }
 
+.italic {
+   font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  color: #424242;
+}
+
+
 h6.center.intro {
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
@@ -78,3 +85,11 @@ footer.page-footer {
 .navbar-fixed {position: absolute;z-index:999999999;}
 
 .icon-white{color: #fff;}
+
+.nav-color{
+  background-color: #424242 !important;
+}
+
+.section-pad{
+  padding-top: 5rem;
+}
