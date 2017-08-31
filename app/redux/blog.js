@@ -49,6 +49,6 @@ export const fetchBlogs = () => dispatch => {
 };
 
 export const setNav = color => dispatch => {
-      const action = updateNav(color);
-      dispatch(action);
+  const action = updateNav(color);
+  dispatch(action);
 };

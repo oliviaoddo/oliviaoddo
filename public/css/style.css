@@ -93,3 +93,7 @@ footer.page-footer {
 .section-pad{
   padding-top: 5rem;
 }
+
+.avatar{
+  border-radius: 50%;
+}
