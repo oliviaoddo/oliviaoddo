@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
-import { setNav } from '../redux/blog';
+import { setNav } from '../redux/personal';
 
 class Navigation extends Component {
   constructor(props) {
@@ -124,6 +124,26 @@ class Navigation extends Component {
                   onClick={ev => {
                     $(ev).sideNav('hide');
                   }}
+                  to="/contact"
+                >
+                  Contact Me
+                </Link>
+              </li>
+              <li>
+                <Link
+                  onClick={ev => {
+                    $(ev).sideNav('hide');
+                  }}
+                  to="/education"
+                >
+                  Education
+                </Link>
+              </li>
+              <li>
+                <Link
+                  onClick={ev => {
+                    $(ev).sideNav('hide');
+                  }}
                   to="/blog"
                 >
                   Blog
@@ -149,7 +169,7 @@ class Navigation extends Component {
 
 const mapStateToProps = state => {
   return {
-    color: state.blog.color
+    color: state.personal.color
   };
 };
 

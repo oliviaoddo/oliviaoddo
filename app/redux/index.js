@@ -1,4 +1,4 @@
 import { combineReducers } from 'redux';
-import blog from './blog';
+import personal from './personal';
 
-export default combineReducers({ blog });
+export default combineReducers({ personal });

@@ -28,6 +28,10 @@ p {
   color: #424242;
 }
 
+h2.intro {
+  font-size: 2em;
+}
+
 .italic {
    font-family: 'Open Sans', sans-serif;
   font-style: italic;
@@ -90,10 +94,19 @@ footer.page-footer {
   background-color: #424242 !important;
 }
 
+.footer-color{
+  background-color: #424242 !important;
+}
+
 .section-pad{
   padding-top: 5rem;
 }
 
 .avatar{
   border-radius: 50%;
+}
+
+.addButton {
+  float: right;
+    background-color: #424242;
 }

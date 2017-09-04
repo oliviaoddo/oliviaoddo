@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom';
 import { connect } from 'react-redux';
-import { fetchBlogs, setNav } from '../redux/blog';
+import { fetchBlogs, setNav } from '../redux/personal';
 
 class Home extends Component {
   constructor(props) {
@@ -39,7 +39,7 @@ class Home extends Component {
           </div>
         </div>
 
-        <div className="grey lighten-4" id='startRef'>
+        <div className="grey lighten-4" id="startRef">
           <div className="section">
             <div className="container">
               <div className="row bio">
@@ -59,16 +59,22 @@ class Home extends Component {
                     <h6 className="center intro">
                       Fullstack Software Engineer
                     </h6>
+                    <h6 className="center">
+                      Seeking development opportunies in SF, CA
+                    </h6>
                     <p className="intro">
-                      I majored in Film and Electronic arts at CSULB and
-                      completed two minors, one in Computer Science and the
-                      other in Web Technologies and Applications. In 2014, I
-                      opened an ecommerce sea glass jewelry business. I
-                      developed the ecommerce website, designed the jewelry, and
-                      marketed it. This is when I discovered the practical
-                      application of computer science. I attended Fullstack
-                      Academy in NYC to further my education, and I am currently
-                      seeking development opportunities in San Francisco, CA.
+                      I have been studying film and electronic arts at
+                      California State University Long Beach for the past four
+                      years. I completed one minor in computer science and a
+                      second minor in web technologies and applications. I
+                      really enjoyed my first few computer science classes,
+                      however I did not undertand how they could be applied to
+                      the real world.
+                    </p>
+                    <p className="intro">During my second year of college, I opened an ecommerce business selling sea glass jewelery. I designed the jewelery, photographed it, marketed it on social media, and developed the ecommerce website. This is when I discovered the practical application of computer science. I became obsessed with coding and spent 200 hours on Team Treehouse within the span of two months.
+                    </p>
+                    <p className="intro">
+                      Towards the end of my college career, I knew I wanted to be a software engineer. I was torn between teaching myself and risking my savings to attend Fullstack Academy in NYC. I decided that I needed to accelerate my learning by learing industry standards, and collaborating with peers on projects. I spent over 600 hours this past summer solifidying my skills, and it was the best decision I ever made. I am currently looking to start my software engineering career at a small company in San Francisco, CA where I can work closely with the product.
                     </p>
                   </div>
                 </div>
@@ -347,7 +353,7 @@ class Home extends Component {
 
 const mapStateToProps = state => {
   return {
-    color: state.blog.color
+    color: state.personal.color
   };
 };
 

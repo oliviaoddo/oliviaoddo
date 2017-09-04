@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
-    <footer className="page-footer teal">
+    <footer className="page-footer footer-color">
       <div className="container">
         <div className="row">
           <div className="col l6 s12">
@@ -40,11 +40,11 @@ export default function Footer() {
             </ul>
           </div>
           <div className="col l3 s12">
-            <h5 className="white-text">Connect</h5>
+            <h5 className="white-text">Contact</h5>
             <ul>
               <li>
                 <a className="white-text" href="#!">
-                  Link 1
+                  olivia.oddo@gmail.com
                 </a>
               </li>
               <li>
@@ -68,10 +68,7 @@ export default function Footer() {
       </div>
       <div className="footer-copyright">
         <div className="container">
-          Made by{' '}
-          <a className="brown-text text-lighten-3" href="http://materializecss.com">
-            Materialize
-          </a>
+          Made by  Olivia Oddo
         </div>
       </div>
     </footer>

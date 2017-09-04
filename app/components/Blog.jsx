@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
-import { fetchBlogs, setNav } from '../redux/blog';
+import { fetchBlogs, setNav } from '../redux/personal';
 
 class Blog extends Component {
   constructor(props) {
@@ -73,8 +73,8 @@ class Blog extends Component {
 
 const mapStateToProps = state => {
   return {
-    blogs: state.blog.blogs,
-    color: state.blog.color
+    blogs: state.personal.blogs,
+    color: state.personal.color
   };
 };
 
