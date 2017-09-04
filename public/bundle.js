@@ -1767,7 +1767,7 @@ var _prodInvariant = __webpack_require__(3),
     _assign = __webpack_require__(5);
 
 var CallbackQueue = __webpack_require__(84);
-var PooledClass = __webpack_require__(20);
+var PooledClass = __webpack_require__(21);
 var ReactFeatureFlags = __webpack_require__(85);
 var ReactReconciler = __webpack_require__(26);
 var Transaction = __webpack_require__(37);
@@ -2022,7 +2022,7 @@ module.exports = ReactUpdates;
 
 var _assign = __webpack_require__(5);
 
-var PooledClass = __webpack_require__(20);
+var PooledClass = __webpack_require__(21);
 
 var emptyFunction = __webpack_require__(11);
 var warning = __webpack_require__(2);
@@ -2492,6 +2492,65 @@ module.exports = DOMProperty;
 
 /***/ }),
 /* 19 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(275);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "BrowserRouter", function() { return __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(277);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "HashRouter", function() { return __WEBPACK_IMPORTED_MODULE_1__HashRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Link__ = __webpack_require__(122);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return __WEBPACK_IMPORTED_MODULE_2__Link__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(279);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "MemoryRouter", function() { return __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__NavLink__ = __webpack_require__(282);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavLink", function() { return __WEBPACK_IMPORTED_MODULE_4__NavLink__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Prompt__ = __webpack_require__(285);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Prompt", function() { return __WEBPACK_IMPORTED_MODULE_5__Prompt__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(287);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Redirect", function() { return __WEBPACK_IMPORTED_MODULE_6__Redirect__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(123);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Router__ = __webpack_require__(69);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return __WEBPACK_IMPORTED_MODULE_8__Router__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__StaticRouter__ = __webpack_require__(293);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "StaticRouter", function() { return __WEBPACK_IMPORTED_MODULE_9__StaticRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Switch__ = __webpack_require__(295);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Switch", function() { return __WEBPACK_IMPORTED_MODULE_10__Switch__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__matchPath__ = __webpack_require__(297);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "matchPath", function() { return __WEBPACK_IMPORTED_MODULE_11__matchPath__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__withRouter__ = __webpack_require__(298);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withRouter", function() { return __WEBPACK_IMPORTED_MODULE_12__withRouter__["a"]; });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***/ }),
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2838,7 +2897,7 @@ module.exports = ReactElement;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2956,7 +3015,7 @@ module.exports = PooledClass;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2975,7 +3034,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3070,65 +3129,6 @@ var setNav = exports.setNav = function setNav(color) {
 };
 
 /***/ }),
-/* 23 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(275);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "BrowserRouter", function() { return __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(277);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "HashRouter", function() { return __WEBPACK_IMPORTED_MODULE_1__HashRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Link__ = __webpack_require__(122);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return __WEBPACK_IMPORTED_MODULE_2__Link__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(279);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "MemoryRouter", function() { return __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__NavLink__ = __webpack_require__(282);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavLink", function() { return __WEBPACK_IMPORTED_MODULE_4__NavLink__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Prompt__ = __webpack_require__(285);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Prompt", function() { return __WEBPACK_IMPORTED_MODULE_5__Prompt__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(287);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Redirect", function() { return __WEBPACK_IMPORTED_MODULE_6__Redirect__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(123);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Router__ = __webpack_require__(69);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return __WEBPACK_IMPORTED_MODULE_8__Router__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__StaticRouter__ = __webpack_require__(293);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "StaticRouter", function() { return __WEBPACK_IMPORTED_MODULE_9__StaticRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Switch__ = __webpack_require__(295);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Switch", function() { return __WEBPACK_IMPORTED_MODULE_10__Switch__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__matchPath__ = __webpack_require__(297);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "matchPath", function() { return __WEBPACK_IMPORTED_MODULE_11__matchPath__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__withRouter__ = __webpack_require__(298);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withRouter", function() { return __WEBPACK_IMPORTED_MODULE_12__withRouter__["a"]; });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/***/ }),
 /* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3150,7 +3150,7 @@ var _assign = __webpack_require__(5);
 var ReactBaseClasses = __webpack_require__(73);
 var ReactChildren = __webpack_require__(127);
 var ReactDOMFactories = __webpack_require__(131);
-var ReactElement = __webpack_require__(19);
+var ReactElement = __webpack_require__(20);
 var ReactPropTypes = __webpack_require__(135);
 var ReactVersion = __webpack_require__(137);
 
@@ -8532,7 +8532,7 @@ module.exports = getIteratorFn;
 
 var ReactCurrentOwner = __webpack_require__(15);
 var ReactComponentTreeHook = __webpack_require__(10);
-var ReactElement = __webpack_require__(19);
+var ReactElement = __webpack_require__(20);
 
 var checkReactTypeSpec = __webpack_require__(132);
 
@@ -9498,7 +9498,7 @@ var _prodInvariant = __webpack_require__(3);
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var PooledClass = __webpack_require__(20);
+var PooledClass = __webpack_require__(21);
 
 var invariant = __webpack_require__(1);
 
@@ -13502,7 +13502,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactDom = __webpack_require__(45);
 
-var _reactRedux = __webpack_require__(21);
+var _reactRedux = __webpack_require__(22);
 
 var _store = __webpack_require__(251);
 
@@ -13538,7 +13538,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 var PooledClass = __webpack_require__(128);
-var ReactElement = __webpack_require__(19);
+var ReactElement = __webpack_require__(20);
 
 var emptyFunction = __webpack_require__(11);
 var traverseAllChildren = __webpack_require__(129);
@@ -14097,7 +14097,7 @@ module.exports = KeyEscapeUtils;
 
 
 
-var ReactElement = __webpack_require__(19);
+var ReactElement = __webpack_require__(20);
 
 /**
  * Create a factory that creates HTML tag elements.
@@ -14418,7 +14418,7 @@ module.exports = ReactPropTypesSecret;
 
 
 
-var _require = __webpack_require__(19),
+var _require = __webpack_require__(20),
     isValidElement = _require.isValidElement;
 
 var factory = __webpack_require__(78);
@@ -14533,7 +14533,7 @@ module.exports = '15.6.1';
 var _require = __webpack_require__(73),
     Component = _require.Component;
 
-var _require2 = __webpack_require__(19),
+var _require2 = __webpack_require__(20),
     isValidElement = _require2.isValidElement;
 
 var ReactNoopUpdateQueue = __webpack_require__(74);
@@ -15439,7 +15439,7 @@ module.exports = factory;
 
 var _prodInvariant = __webpack_require__(25);
 
-var ReactElement = __webpack_require__(19);
+var ReactElement = __webpack_require__(20);
 
 var invariant = __webpack_require__(1);
 
@@ -16160,7 +16160,7 @@ module.exports = BeforeInputEventPlugin;
 
 var _assign = __webpack_require__(5);
 
-var PooledClass = __webpack_require__(20);
+var PooledClass = __webpack_require__(21);
 
 var getTextContentAccessor = __webpack_require__(83);
 
@@ -22322,7 +22322,7 @@ module.exports = flattenChildren;
 
 var _assign = __webpack_require__(5);
 
-var PooledClass = __webpack_require__(20);
+var PooledClass = __webpack_require__(21);
 var Transaction = __webpack_require__(37);
 var ReactInstrumentation = __webpack_require__(12);
 var ReactServerUpdateQueue = __webpack_require__(190);
@@ -23013,7 +23013,7 @@ var _assign = __webpack_require__(5);
 
 var EventListener = __webpack_require__(100);
 var ExecutionEnvironment = __webpack_require__(7);
-var PooledClass = __webpack_require__(20);
+var PooledClass = __webpack_require__(21);
 var ReactDOMComponentTree = __webpack_require__(6);
 var ReactUpdates = __webpack_require__(16);
 
@@ -23255,7 +23255,7 @@ module.exports = ReactInjection;
 var _assign = __webpack_require__(5);
 
 var CallbackQueue = __webpack_require__(84);
-var PooledClass = __webpack_require__(20);
+var PooledClass = __webpack_require__(21);
 var ReactBrowserEventEmitter = __webpack_require__(41);
 var ReactInputSelection = __webpack_require__(101);
 var ReactInstrumentation = __webpack_require__(12);
@@ -26919,7 +26919,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _redux = __webpack_require__(63);
 
-var _personal = __webpack_require__(22);
+var _personal = __webpack_require__(23);
 
 var _personal2 = _interopRequireDefault(_personal);
 
@@ -27818,7 +27818,7 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(23);
+var _reactRouterDom = __webpack_require__(19);
 
 var _Nav = __webpack_require__(300);
 
@@ -30884,11 +30884,11 @@ var _reactDom = __webpack_require__(45);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _reactRouterDom = __webpack_require__(23);
+var _reactRouterDom = __webpack_require__(19);
 
-var _reactRedux = __webpack_require__(21);
+var _reactRedux = __webpack_require__(22);
 
-var _personal = __webpack_require__(22);
+var _personal = __webpack_require__(23);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -31105,20 +31105,6 @@ var Navigation = function (_Component) {
                   },
                   'Blog'
                 )
-              ),
-              _react2.default.createElement(
-                'li',
-                null,
-                _react2.default.createElement(
-                  _reactRouterDom.Link,
-                  {
-                    onClick: function onClick(ev) {
-                      $(ev).sideNav('hide');
-                    },
-                    to: '/experience'
-                  },
-                  'Experience'
-                )
               )
             )
           )
@@ -31154,7 +31140,7 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(23);
+var _reactRouterDom = __webpack_require__(19);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -31315,11 +31301,11 @@ var _reactDom = __webpack_require__(45);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _reactRedux = __webpack_require__(21);
+var _reactRedux = __webpack_require__(22);
 
-var _reactRouterDom = __webpack_require__(23);
+var _reactRouterDom = __webpack_require__(19);
 
-var _personal = __webpack_require__(22);
+var _personal = __webpack_require__(23);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -31429,17 +31415,17 @@ var Home = function (_Component) {
                     _react2.default.createElement(
                       'p',
                       { className: 'intro' },
-                      'I have been studying film and electronic arts at California State University Long Beach for the past four years. I completed one minor in computer science and a second minor in web technologies and applications. I really enjoyed my first few computer science classes, however I did not undertand how they could be applied to the real world.'
+                      'I have been studying film and electronic arts at California State University Long Beach for the past four years. I completed one minor in computer science and a second minor in web technologies and applications. I really enjoyed my first few computer science classes, however I did not understand how they could be applied to the real world.'
                     ),
                     _react2.default.createElement(
                       'p',
                       { className: 'intro' },
-                      'During my second year of college, I opened an ecommerce business selling sea glass jewelery. I designed the jewelery, photographed it, marketed it on social media, and developed the ecommerce website. This is when I discovered the practical application of computer science. I became obsessed with coding and spent 200 hours on Team Treehouse within the span of two months.'
+                      'During my second year of college, I opened an ecommerce business selling sea glass jewelry. I designed the jewelry, photographed it, marketed it on social media, and developed the ecommerce website. This is when I discovered the practical application of computer science. I became obsessed with coding and spent 200 hours on Team Treehouse within the span of two months.'
                     ),
                     _react2.default.createElement(
                       'p',
                       { className: 'intro' },
-                      'Towards the end of my college career, I knew I wanted to be a software engineer. I was torn between teaching myself and risking my savings to attend Fullstack Academy in NYC. I decided that I needed to accelerate my learning in a professional setting where I would collarborate with peers on projects. I spent over 600 hours this past summer solifidying my skills, and I am so happy with my decision. I am currently looking to start my software engineering career at a startup in San Francisco, CA where I can work closely with the product.'
+                      'Towards the end of my college career, I knew I wanted to be a software engineer. I was torn between teaching myself and risking my savings to attend Fullstack Academy in NYC. I decided that I needed to accelerate my learning in a professional setting where I would collaborate with peers on projects. I spent over 600 hours this past summer solidifying my skills, and I am so happy with my decision. I am currently looking to start my software engineering career at a startup in San Francisco, CA where I can work closely with the product.'
                     )
                   )
                 )
@@ -31497,7 +31483,7 @@ var Home = function (_Component) {
                 { className: 'row bio' },
                 _react2.default.createElement(
                   'div',
-                  { className: 'col s12 m3' },
+                  { className: 'col m3 s6' },
                   _react2.default.createElement(
                     'div',
                     { className: 'icon-block' },
@@ -31524,7 +31510,7 @@ var Home = function (_Component) {
                 ),
                 _react2.default.createElement(
                   'div',
-                  { className: 'col s12 m3' },
+                  { className: 'col m3 s6' },
                   _react2.default.createElement(
                     'div',
                     { className: 'icon-block' },
@@ -31551,7 +31537,7 @@ var Home = function (_Component) {
                 ),
                 _react2.default.createElement(
                   'div',
-                  { className: 'col s12 m3' },
+                  { className: 'col s6 m3' },
                   _react2.default.createElement(
                     'div',
                     { className: 'icon-block' },
@@ -31578,7 +31564,7 @@ var Home = function (_Component) {
                 ),
                 _react2.default.createElement(
                   'div',
-                  { className: 'col s12 m3' },
+                  { className: 'col s6 m3' },
                   _react2.default.createElement(
                     'div',
                     { className: 'icon-block' },
@@ -31655,7 +31641,7 @@ var Home = function (_Component) {
                   { to: '/projects' },
                   _react2.default.createElement(
                     'p',
-                    { className: 'center' },
+                    { className: 'center github' },
                     _react2.default.createElement(
                       'em',
                       null,
@@ -31748,11 +31734,11 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(23);
+var _reactRouterDom = __webpack_require__(19);
 
-var _reactRedux = __webpack_require__(21);
+var _reactRedux = __webpack_require__(22);
 
-var _personal = __webpack_require__(22);
+var _personal = __webpack_require__(23);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -31798,7 +31784,7 @@ var Projects = function (_Component) {
               { className: 'row' },
               _react2.default.createElement(
                 'div',
-                { className: 'col m4' },
+                { className: 'col l4 m6 s12' },
                 _react2.default.createElement(
                   'div',
                   { className: 'card' },
@@ -31830,7 +31816,11 @@ var Projects = function (_Component) {
                       null,
                       _react2.default.createElement(
                         'a',
-                        { href: 'http://hairconnect.me/', target: '_blank' },
+                        {
+                          className: 'project-link',
+                          href: 'http://hairconnect.me/',
+                          target: '_blank'
+                        },
                         'View Project |',
                         ' '
                       ),
@@ -31840,7 +31830,10 @@ var Projects = function (_Component) {
                           href: 'https://github.com/oliviaoddo/hair-connect',
                           target: '_blank'
                         },
-                        _react2.default.createElement('i', { className: 'fa fa-github fa-lg', 'aria-hidden': 'true' })
+                        _react2.default.createElement('i', {
+                          className: 'fa fa-github fa-lg github',
+                          'aria-hidden': 'true'
+                        })
                       )
                     )
                   ),
@@ -31870,6 +31863,12 @@ var Projects = function (_Component) {
                     _react2.default.createElement(
                       'p',
                       null,
+                      ' ',
+                      'I designed the front end with bootstrap and Django\u2019s templating language. The database was developed with MySQL, and I used a stored procedure to implement searching by zip code. In addition, I used Django\u2019s ORM to query the database and dynamically display information to the user.'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      null,
                       'Hair Connect was developed using Django, Python, MySQL, Bootstrap, HTML, CSS, and AWS.'
                     )
                   )
@@ -31877,7 +31876,7 @@ var Projects = function (_Component) {
               ),
               _react2.default.createElement(
                 'div',
-                { className: 'col m4' },
+                { className: 'col l4 m6 s12' },
                 _react2.default.createElement(
                   'div',
                   { className: 'card' },
@@ -31911,7 +31910,8 @@ var Projects = function (_Component) {
                         'a',
                         {
                           href: 'https://www.youtube.com/watch?v=J0Ua_ZlNbcs',
-                          target: '_blank'
+                          target: '_blank',
+                          className: 'project-link'
                         },
                         'View Project |',
                         ' '
@@ -31922,7 +31922,10 @@ var Projects = function (_Component) {
                           href: 'https://github.com/HumApp/humclient',
                           target: '_blank'
                         },
-                        _react2.default.createElement('i', { className: 'fa fa-github fa-lg', 'aria-hidden': 'true' })
+                        _react2.default.createElement('i', {
+                          className: 'fa fa-github fa-lg github',
+                          'aria-hidden': 'true'
+                        })
                       )
                     )
                   ),
@@ -31947,7 +31950,7 @@ var Projects = function (_Component) {
                     _react2.default.createElement(
                       'p',
                       null,
-                      'Humm is an IOS application that allows users to share playlists accross music streaming services. For example, someone can share their Apple Music playlist with a friend through our app, and the playlist will be downloaded onto the friend\'s Spotify account.'
+                      'Humm is an IOS application that allows users to share playlists across music streaming services. For example, someone can share their Apple Music playlist with a friend through our app, and the playlist will be downloaded onto the friend\'s Spotify account.'
                     ),
                     _react2.default.createElement(
                       'p',
@@ -31964,7 +31967,7 @@ var Projects = function (_Component) {
               ),
               _react2.default.createElement(
                 'div',
-                { className: 'col m4' },
+                { className: 'col l4 m6 s12' },
                 _react2.default.createElement(
                   'div',
                   { className: 'card' },
@@ -32003,7 +32006,11 @@ var Projects = function (_Component) {
                       null,
                       _react2.default.createElement(
                         'a',
-                        { href: 'http://web-axs.herokuapp.com/', target: '_blank' },
+                        {
+                          className: 'project-link',
+                          href: 'http://web-axs.herokuapp.com/',
+                          target: '_blank'
+                        },
                         'View Project |',
                         ' '
                       ),
@@ -32013,7 +32020,10 @@ var Projects = function (_Component) {
                           href: 'https://github.com/oliviaoddo/accessibility',
                           target: '_blank'
                         },
-                        _react2.default.createElement('i', { className: 'fa fa-github fa-lg', 'aria-hidden': 'true' })
+                        _react2.default.createElement('i', {
+                          className: 'fa fa-github fa-lg github',
+                          'aria-hidden': 'true'
+                        })
                       )
                     )
                   ),
@@ -32047,14 +32057,10 @@ var Projects = function (_Component) {
                     )
                   )
                 )
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'row' },
+              ),
               _react2.default.createElement(
                 'div',
-                { className: 'col m4' },
+                { className: 'col l4 m6 s12' },
                 _react2.default.createElement(
                   'div',
                   { className: 'card' },
@@ -32088,7 +32094,8 @@ var Projects = function (_Component) {
                         'a',
                         {
                           target: '_blank',
-                          href: 'https://www.youtube.com/watch?v=b-23WjoX2ys'
+                          href: 'https://www.youtube.com/watch?v=b-23WjoX2ys',
+                          className: 'project-link'
                         },
                         'View Project |',
                         ' '
@@ -32099,7 +32106,10 @@ var Projects = function (_Component) {
                           href: 'https://github.com/jalerner/nativeTrial',
                           target: '_blank'
                         },
-                        _react2.default.createElement('i', { className: 'fa fa-github fa-lg', 'aria-hidden': 'true' })
+                        _react2.default.createElement('i', {
+                          className: 'fa fa-github fa-lg github',
+                          'aria-hidden': 'true'
+                        })
                       )
                     )
                   ),
@@ -32124,7 +32134,7 @@ var Projects = function (_Component) {
                     _react2.default.createElement(
                       'p',
                       null,
-                      'Leveraged React Native, Firebase, and geoLocation to provide customized and timely activity recommendations. For an instant activity, Seek populates activities that are currently open within half a mile that a user is expected to enjoy given prior interactions. The user then may swipe no and see additional actitivities, or swipe yes to navigate to directions. Users may also plan out a few events or entire day. Again, Seek will auto-populate recommended activites given category criteria (such as eat, entertainment, bars, etc.) and users may keep recommended activities or solicit another category activity with one click. Lastly, users can reference prior plans and share with other Seek users!'
+                      'Leveraged React Native, Firebase, and geoLocation to provide customized and timely activity recommendations. For an instant activity, Seek populates activities that are currently open within half a mile that a user is expected to enjoy given prior interactions. The user then may swipe no and see additional activities, or swipe yes to navigate to directions. Users may also plan out a few events or entire day. Again, Seek will auto-populate recommended activities given category criteria (such as eat, entertainment, bars, etc.) and users may keep recommended activities or solicit another category activity with one click. Lastly, users can reference prior plans and share with other Seek users!'
                     ),
                     _react2.default.createElement(
                       'p',
@@ -32136,7 +32146,7 @@ var Projects = function (_Component) {
               ),
               _react2.default.createElement(
                 'div',
-                { className: 'col m4' },
+                { className: 'col l4 m6 s12' },
                 _react2.default.createElement(
                   'div',
                   { className: 'card' },
@@ -32168,7 +32178,11 @@ var Projects = function (_Component) {
                       null,
                       _react2.default.createElement(
                         'a',
-                        { href: 'https://seacandy.herokuapp.com/', target: '_blank' },
+                        {
+                          className: 'project-link',
+                          href: 'https://seacandy.herokuapp.com/',
+                          target: '_blank'
+                        },
                         'View Project |',
                         ' '
                       ),
@@ -32178,7 +32192,10 @@ var Projects = function (_Component) {
                           href: 'https://github.com/oliviaoddo/grace-shopper',
                           target: '_blank'
                         },
-                        _react2.default.createElement('i', { className: 'fa fa-github fa-lg', 'aria-hidden': 'true' })
+                        _react2.default.createElement('i', {
+                          className: 'fa fa-github fa-lg github',
+                          'aria-hidden': 'true'
+                        })
                       )
                     )
                   ),
@@ -32220,7 +32237,7 @@ var Projects = function (_Component) {
               ),
               _react2.default.createElement(
                 'div',
-                { className: 'col m4' },
+                { className: 'col l4 m6 s12' },
                 _react2.default.createElement(
                   'div',
                   { className: 'card' },
@@ -32253,10 +32270,14 @@ var Projects = function (_Component) {
                       _react2.default.createElement(
                         'a',
                         {
+                          className: 'project-link',
                           href: 'https://github.com/oliviaoddo/nyc-map-data',
                           target: '_blank'
                         },
-                        _react2.default.createElement('i', { className: 'fa fa-github fa-lg', 'aria-hidden': 'true' })
+                        _react2.default.createElement('i', {
+                          className: 'fa fa-github fa-lg github',
+                          'aria-hidden': 'true'
+                        })
                       )
                     )
                   ),
@@ -32281,7 +32302,7 @@ var Projects = function (_Component) {
                     _react2.default.createElement(
                       'p',
                       null,
-                      'The purpose of this project was to visualize various New York City data sets. I explored noise complaints, grafitti complaints, and food establishment complaints.'
+                      'The purpose of this project was to visualize various New York City data sets. I explored noise complaints, graffiti complaints, and food establishment complaints.'
                     ),
                     _react2.default.createElement(
                       'p',
@@ -32290,14 +32311,10 @@ var Projects = function (_Component) {
                     )
                   )
                 )
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'row' },
+              ),
               _react2.default.createElement(
                 'div',
-                { className: 'col m4' },
+                { className: 'col l4 m6 s12' },
                 _react2.default.createElement(
                   'div',
                   { className: 'card' },
@@ -32340,7 +32357,10 @@ var Projects = function (_Component) {
                           href: 'https://github.com/oliviaoddo/BeKiind',
                           target: '_blank'
                         },
-                        _react2.default.createElement('i', { className: 'fa fa-github fa-lg', 'aria-hidden': 'true' })
+                        _react2.default.createElement('i', {
+                          className: 'fa fa-github fa-lg github',
+                          'aria-hidden': 'true'
+                        })
                       )
                     )
                   ),
@@ -32377,7 +32397,7 @@ var Projects = function (_Component) {
               ),
               _react2.default.createElement(
                 'div',
-                { className: 'col m4' },
+                { className: 'col l4 m6 s12' },
                 _react2.default.createElement(
                   'div',
                   { className: 'card' },
@@ -32416,7 +32436,10 @@ var Projects = function (_Component) {
                           href: 'https://github.com/TheDirtySix/TheDirtySix',
                           target: '_blank'
                         },
-                        _react2.default.createElement('i', { className: 'fa fa-github fa-lg', 'aria-hidden': 'true' })
+                        _react2.default.createElement('i', {
+                          className: 'fa fa-github fa-lg github',
+                          'aria-hidden': 'true'
+                        })
                       )
                     )
                   ),
@@ -32441,7 +32464,7 @@ var Projects = function (_Component) {
                     _react2.default.createElement(
                       'p',
                       null,
-                      'Competed in OpenAir\'s web accessibility contest where teams developed accessibile web sites for non profit organizations.'
+                      'Competed in OpenAir\'s web accessibility contest where teams developed accessible web sites for non profit organizations.'
                     ),
                     _react2.default.createElement(
                       'p',
@@ -32458,7 +32481,7 @@ var Projects = function (_Component) {
               ),
               _react2.default.createElement(
                 'div',
-                { className: 'col m4' },
+                { className: 'col l4 m6 s12' },
                 _react2.default.createElement(
                   'div',
                   { className: 'card' },
@@ -32501,7 +32524,10 @@ var Projects = function (_Component) {
                           href: 'https://github.com/oliviaoddo/RestaurantWebApp',
                           target: '_blank'
                         },
-                        _react2.default.createElement('i', { className: 'fa fa-github fa-lg', 'aria-hidden': 'true' })
+                        _react2.default.createElement('i', {
+                          className: 'fa fa-github fa-lg github',
+                          'aria-hidden': 'true'
+                        })
                       )
                     )
                   ),
@@ -32621,7 +32647,7 @@ var Projects = function (_Component) {
             _react2.default.createElement(
               'a',
               { href: 'https://github.com/oliviaoddo/BeKiind', target: '_blank' },
-              _react2.default.createElement('i', { className: 'fa fa-github fa-lg', 'aria-hidden': 'true' })
+              _react2.default.createElement('i', { className: 'fa fa-github fa-lg github', 'aria-hidden': 'true' })
             ),
             _react2.default.createElement(
               'a',
@@ -32667,7 +32693,7 @@ var Projects = function (_Component) {
                 href: 'https://github.com/oliviaoddo/RestaurantWebApp',
                 target: '_blank'
               },
-              _react2.default.createElement('i', { className: 'fa fa-github fa-lg', 'aria-hidden': 'true' })
+              _react2.default.createElement('i', { className: 'fa fa-github fa-lg github', 'aria-hidden': 'true' })
             ),
             _react2.default.createElement(
               'a',
@@ -32720,11 +32746,11 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(23);
+var _reactRouterDom = __webpack_require__(19);
 
-var _reactRedux = __webpack_require__(21);
+var _reactRedux = __webpack_require__(22);
 
-var _personal = __webpack_require__(22);
+var _personal = __webpack_require__(23);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -32865,11 +32891,11 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(23);
+var _reactRouterDom = __webpack_require__(19);
 
-var _reactRedux = __webpack_require__(21);
+var _reactRedux = __webpack_require__(22);
 
-var _personal = __webpack_require__(22);
+var _personal = __webpack_require__(23);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -32967,7 +32993,7 @@ var Education = function (_Component) {
                 _react2.default.createElement(
                   'p',
                   null,
-                  'I will recieve a Bachelor of the Arts in Film and Electronic Arts this fall. I completed a minor in computer science, and a second minor in web technologies and applications.'
+                  'I will receive a Bachelor of the Arts in Film and Electronic Arts this fall. I completed a minor in computer science, and a second minor in web technologies and applications.'
                 ),
                 _react2.default.createElement(
                   'p',
@@ -33082,11 +33108,11 @@ var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(23);
+var _reactRouterDom = __webpack_require__(19);
 
-var _reactRedux = __webpack_require__(21);
+var _reactRedux = __webpack_require__(22);
 
-var _personal = __webpack_require__(22);
+var _personal = __webpack_require__(23);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -33149,7 +33175,7 @@ var Contact = function (_Component) {
             _react2.default.createElement(
               'p',
               null,
-              'If you are interested in hiring me for a freelance position, would like to set up a chate, or are interested in me for a software engineering position at your company, please contact me below!'
+              'If you are interested in hiring me for a freelance position, would like to set up a chat, or are interested in me for a software engineering position at your company, please contact me below!'
             ),
             _react2.default.createElement(
               'div',

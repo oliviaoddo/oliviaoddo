@@ -69,13 +69,13 @@ class Home extends Component {
                       years. I completed one minor in computer science and a
                       second minor in web technologies and applications. I
                       really enjoyed my first few computer science classes,
-                      however I did not undertand how they could be applied to
+                      however I did not understand how they could be applied to
                       the real world.
                     </p>
                     <p className="intro">
                       During my second year of college, I opened an ecommerce
-                      business selling sea glass jewelery. I designed the
-                      jewelery, photographed it, marketed it on social media,
+                      business selling sea glass jewelry. I designed the
+                      jewelry, photographed it, marketed it on social media,
                       and developed the ecommerce website. This is when I
                       discovered the practical application of computer science.
                       I became obsessed with coding and spent 200 hours on Team
@@ -86,9 +86,9 @@ class Home extends Component {
                       be a software engineer. I was torn between teaching myself
                       and risking my savings to attend Fullstack Academy in NYC.
                       I decided that I needed to accelerate my learning in a
-                      professional setting where I would collarborate with peers
+                      professional setting where I would collaborate with peers
                       on projects. I spent over 600 hours this past summer
-                      solifidying my skills, and I am so happy with my decision.
+                      solidifying my skills, and I am so happy with my decision.
                       I am currently looking to start my software engineering
                       career at a startup in San Francisco, CA where I can work
                       closely with the product.
@@ -128,7 +128,7 @@ class Home extends Component {
             <div className="container">
               <h3 className="center intro">Technical Skills</h3>
               <div className="row bio">
-                <div className="col s12 m3">
+                <div className="col m3 s6">
                   <div className="icon-block">
                     <ul>
                       <li>
@@ -143,7 +143,7 @@ class Home extends Component {
                     </ul>
                   </div>
                 </div>
-                <div className="col s12 m3">
+                <div className="col m3 s6">
                   <div className="icon-block">
                     <ul>
                       <li>
@@ -158,7 +158,7 @@ class Home extends Component {
                     </ul>
                   </div>
                 </div>
-                <div className="col s12 m3">
+                <div className="col s6 m3">
                   <div className="icon-block">
                     <ul>
                       <li>
@@ -173,7 +173,7 @@ class Home extends Component {
                     </ul>
                   </div>
                 </div>
-                <div className="col s12 m3">
+                <div className="col s6 m3">
                   <div className="icon-block">
                     <ul>
                       <li>
@@ -217,7 +217,7 @@ class Home extends Component {
             <div className="container">
               <div className="row">
                 <h3 className="center intro">Projects</h3>
-               <Link to='/projects'><p className="center"><em>View all projects...</em></p></Link>
+               <Link to='/projects'><p className="center github"><em>View all projects...</em></p></Link>
                 <div className="col s12 m12">
                   <div className="video-container">
                     <iframe

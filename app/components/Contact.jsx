@@ -34,7 +34,7 @@ class Contact extends Component {
             <h2 className="intro">Contact</h2>
             <p>
               If you are interested in hiring me for a freelance position, would
-              like to set up a chate, or are interested in me for a software
+              like to set up a chat, or are interested in me for a software
               engineering position at your company, please contact me below!
             </p>
             <div className="col m12 s12">

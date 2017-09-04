@@ -112,10 +112,26 @@ footer.page-footer {
 }
 
 .view{
-  background-color: #424242;
+  background-color: #ff8a65;
 }
 
 .btn:hover, .btn-large:hover {
-    background-color: #fff;
-    color: #424242;
+    background-color: #424242;
+    color: #fff;
+}
+
+.github {
+  color: #ff8a65;
+}
+
+.github:hover {
+  color: #424242;
+}
+
+.project-link {
+  color: #424242;
+}
+
+.project-link:hover {
+  color: #ff8a65;
 }

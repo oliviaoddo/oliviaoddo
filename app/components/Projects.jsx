@@ -17,7 +17,7 @@ class Projects extends Component {
           <div className="container">
             <h2 className="intro">Projects</h2>
             <div className="row">
-              <div className="col m4">
+              <div className="col l4 m6 s12">
                 <div className="card">
                   <div className="card-image waves-effect waves-block waves-light">
                     <img className="activator" src="images/hairconnect.png" />
@@ -30,14 +30,21 @@ class Projects extends Component {
                     </span>
                     <em>January 2017 - May 2017</em>
                     <p>
-                      <a href="http://hairconnect.me/" target="_blank">
+                      <a
+                        className="project-link"
+                        href="http://hairconnect.me/"
+                        target="_blank"
+                      >
                         View Project |{' '}
                       </a>
                       <a
                         href="https://github.com/oliviaoddo/hair-connect"
                         target="_blank"
                       >
-                        <i className="fa fa-github fa-lg" aria-hidden="true" />
+                        <i
+                          className="fa fa-github fa-lg github"
+                          aria-hidden="true"
+                        />
                       </a>
                     </p>
                   </div>
@@ -53,13 +60,21 @@ class Projects extends Component {
                       salons or stylists to connect.
                     </p>
                     <p>
+                      {' '}I designed the front end with bootstrap and Django’s
+                      templating language. The database was developed with
+                      MySQL, and I used a stored procedure to implement
+                      searching by zip code. In addition, I used Django’s ORM to
+                      query the database and dynamically display information to
+                      the user.
+                    </p>
+                    <p>
                       Hair Connect was developed using Django, Python, MySQL,
                       Bootstrap, HTML, CSS, and AWS.
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="col m4">
+              <div className="col l4 m6 s12">
                 <div className="card">
                   <div className="card-image waves-effect waves-block waves-light">
                     <img className="activator" src="images/HUMM.png" />
@@ -73,6 +88,7 @@ class Projects extends Component {
                       <a
                         href="https://www.youtube.com/watch?v=J0Ua_ZlNbcs"
                         target="_blank"
+                        className="project-link"
                       >
                         View Project |{' '}
                       </a>
@@ -80,7 +96,10 @@ class Projects extends Component {
                         href="https://github.com/HumApp/humclient"
                         target="_blank"
                       >
-                        <i className="fa fa-github fa-lg" aria-hidden="true" />
+                        <i
+                          className="fa fa-github fa-lg github"
+                          aria-hidden="true"
+                        />
                       </a>
                     </p>
                   </div>
@@ -91,7 +110,7 @@ class Projects extends Component {
                     <em>Fullstack Developer</em>
                     <p>
                       Humm is an IOS application that allows users to share
-                      playlists accross music streaming services. For example,
+                      playlists across music streaming services. For example,
                       someone can share their Apple Music playlist with a friend
                       through our app, and the playlist will be downloaded onto
                       the friend's Spotify account.
@@ -109,7 +128,7 @@ class Projects extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col m4">
+              <div className="col l4 m6 s12">
                 <div className="card">
                   <div className="card-image waves-effect waves-block waves-light">
                     <a
@@ -125,14 +144,21 @@ class Projects extends Component {
                     </span>
                     <em>August 2017</em>
                     <p>
-                      <a href="http://web-axs.herokuapp.com/" target="_blank">
+                      <a
+                        className="project-link"
+                        href="http://web-axs.herokuapp.com/"
+                        target="_blank"
+                      >
                         View Project |{' '}
                       </a>
                       <a
                         href="https://github.com/oliviaoddo/accessibility"
                         target="_blank"
                       >
-                        <i className="fa fa-github fa-lg" aria-hidden="true" />
+                        <i
+                          className="fa fa-github fa-lg github"
+                          aria-hidden="true"
+                        />
                       </a>
                     </p>
                   </div>
@@ -155,9 +181,8 @@ class Projects extends Component {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="row">
-              <div className="col m4">
+
+              <div className="col l4 m6 s12">
                 <div className="card">
                   <div className="card-image waves-effect waves-block waves-light">
                     <img className="activator" src="images/seek.png" />
@@ -171,6 +196,7 @@ class Projects extends Component {
                       <a
                         target="_blank"
                         href="https://www.youtube.com/watch?v=b-23WjoX2ys"
+                        className="project-link"
                       >
                         View Project |{' '}
                       </a>
@@ -178,7 +204,10 @@ class Projects extends Component {
                         href="https://github.com/jalerner/nativeTrial"
                         target="_blank"
                       >
-                        <i className="fa fa-github fa-lg" aria-hidden="true" />
+                        <i
+                          className="fa fa-github fa-lg github"
+                          aria-hidden="true"
+                        />
                       </a>
                     </p>
                   </div>
@@ -193,10 +222,10 @@ class Projects extends Component {
                       For an instant activity, Seek populates activities that
                       are currently open within half a mile that a user is
                       expected to enjoy given prior interactions. The user then
-                      may swipe no and see additional actitivities, or swipe yes
+                      may swipe no and see additional activities, or swipe yes
                       to navigate to directions. Users may also plan out a few
                       events or entire day. Again, Seek will auto-populate
-                      recommended activites given category criteria (such as
+                      recommended activities given category criteria (such as
                       eat, entertainment, bars, etc.) and users may keep
                       recommended activities or solicit another category
                       activity with one click. Lastly, users can reference prior
@@ -209,7 +238,7 @@ class Projects extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col m4">
+              <div className="col l4 m6 s12">
                 <div className="card">
                   <div className="card-image waves-effect waves-block waves-light">
                     <img className="activator" src="images/graceshopper.png" />
@@ -222,14 +251,21 @@ class Projects extends Component {
                     </span>
                     <em>August 2017</em>
                     <p>
-                      <a href="https://seacandy.herokuapp.com/" target="_blank">
+                      <a
+                        className="project-link"
+                        href="https://seacandy.herokuapp.com/"
+                        target="_blank"
+                      >
                         View Project |{' '}
                       </a>
                       <a
                         href="https://github.com/oliviaoddo/grace-shopper"
                         target="_blank"
                       >
-                        <i className="fa fa-github fa-lg" aria-hidden="true" />
+                        <i
+                          className="fa fa-github fa-lg github"
+                          aria-hidden="true"
+                        />
                       </a>
                     </p>
                   </div>
@@ -256,7 +292,7 @@ class Projects extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col m4">
+              <div className="col l4 m6 s12">
                 <div className="card">
                   <div className="card-image waves-effect waves-block waves-light">
                     <img className="activator" src="images/nycdata.png" />
@@ -268,10 +304,14 @@ class Projects extends Component {
                     <em>July 2017</em>
                     <p>
                       <a
+                        className="project-link"
                         href="https://github.com/oliviaoddo/nyc-map-data"
                         target="_blank"
                       >
-                        <i className="fa fa-github fa-lg" aria-hidden="true" />
+                        <i
+                          className="fa fa-github fa-lg github"
+                          aria-hidden="true"
+                        />
                       </a>
                     </p>
                   </div>
@@ -281,7 +321,9 @@ class Projects extends Component {
                     </span>
                     <em>Solo Fullstack Developer</em>
                     <p>
-                      The purpose of this project was to visualize various New York City data sets. I explored noise complaints, grafitti complaints, and food establishment complaints.
+                      The purpose of this project was to visualize various New
+                      York City data sets. I explored noise complaints, graffiti
+                      complaints, and food establishment complaints.
                     </p>
                     <p>
                       NYC Data was developed with Node.js, Express, MySQL,
@@ -290,9 +332,8 @@ class Projects extends Component {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="row">
-              <div className="col m4">
+
+              <div className="col l4 m6 s12">
                 <div className="card">
                   <div className="card-image waves-effect waves-block waves-light">
                     <a
@@ -312,7 +353,10 @@ class Projects extends Component {
                         href="https://github.com/oliviaoddo/BeKiind"
                         target="_blank"
                       >
-                        <i className="fa fa-github fa-lg" aria-hidden="true" />
+                        <i
+                          className="fa fa-github fa-lg github"
+                          aria-hidden="true"
+                        />
                       </a>
                     </p>
                   </div>
@@ -335,7 +379,7 @@ class Projects extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col m4">
+              <div className="col l4 m6 s12">
                 <div className="card">
                   <div className="card-image waves-effect waves-block waves-light">
                     <img
@@ -355,7 +399,10 @@ class Projects extends Component {
                         href="https://github.com/TheDirtySix/TheDirtySix"
                         target="_blank"
                       >
-                        <i className="fa fa-github fa-lg" aria-hidden="true" />
+                        <i
+                          className="fa fa-github fa-lg github"
+                          aria-hidden="true"
+                        />
                       </a>
                     </p>
                   </div>
@@ -368,7 +415,7 @@ class Projects extends Component {
                     <em>Frontend Developer</em>
                     <p>
                       Competed in OpenAir's web accessibility contest where
-                      teams developed accessibile web sites for non profit
+                      teams developed accessible web sites for non profit
                       organizations.
                     </p>
                     <p>
@@ -382,7 +429,7 @@ class Projects extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col m4">
+              <div className="col l4 m6 s12">
                 <div className="card">
                   <div className="card-image waves-effect waves-block waves-light">
                     <a
@@ -404,7 +451,10 @@ class Projects extends Component {
                         href="https://github.com/oliviaoddo/RestaurantWebApp"
                         target="_blank"
                       >
-                        <i className="fa fa-github fa-lg" aria-hidden="true" />
+                        <i
+                          className="fa fa-github fa-lg github"
+                          aria-hidden="true"
+                        />
                       </a>
                     </p>
                   </div>
@@ -486,7 +536,7 @@ class Projects extends Component {
           </div>
           <div className="modal-footer">
             <a href="https://github.com/oliviaoddo/BeKiind" target="_blank">
-              <i className="fa fa-github fa-lg" aria-hidden="true" />
+              <i className="fa fa-github fa-lg github" aria-hidden="true" />
             </a>
             <a
               target="_blank"
@@ -520,7 +570,7 @@ class Projects extends Component {
               href="https://github.com/oliviaoddo/RestaurantWebApp"
               target="_blank"
             >
-              <i className="fa fa-github fa-lg" aria-hidden="true" />
+              <i className="fa fa-github fa-lg github" aria-hidden="true" />
             </a>
             <a
               target="_blank"

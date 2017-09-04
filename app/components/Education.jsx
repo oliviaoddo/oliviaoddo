@@ -46,7 +46,7 @@ class Education extends Component {
                 <em className="intro">August 2013 - December 2017</em>
                 <h6 className="intro">GPA: 3.7</h6>
                 <p>
-                  I will recieve a Bachelor of the Arts in Film and Electronic
+                  I will receive a Bachelor of the Arts in Film and Electronic
                   Arts this fall. I completed a minor in computer science, and a
                   second minor in web technologies and applications.
                 </p>

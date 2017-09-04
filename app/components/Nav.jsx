@@ -149,16 +149,6 @@ class Navigation extends Component {
                   Blog
                 </Link>
               </li>
-              <li>
-                <Link
-                  onClick={ev => {
-                    $(ev).sideNav('hide');
-                  }}
-                  to="/experience"
-                >
-                  Experience
-                </Link>
-              </li>
             </ul>
           </div>
         </nav>
