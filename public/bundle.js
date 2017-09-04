@@ -31233,7 +31233,7 @@ function Footer() {
               null,
               _react2.default.createElement(
                 'a',
-                { className: 'white-text', href: '#!' },
+                { className: 'white-text', href: 'mailto:olivia.oddo@gmail.com?Subject=Contact%Olivia', target: '_top' },
                 'olivia.oddo@gmail.com'
               )
             ),
@@ -31776,7 +31776,7 @@ var Projects = function (_Component) {
             { className: 'container' },
             _react2.default.createElement(
               'h2',
-              { className: 'intro' },
+              { className: 'heading' },
               'Projects'
             ),
             _react2.default.createElement(
@@ -32933,7 +32933,7 @@ var Education = function (_Component) {
             { className: 'container' },
             _react2.default.createElement(
               'h2',
-              { className: 'intro' },
+              { className: 'heading' },
               'Education'
             ),
             _react2.default.createElement(
@@ -32941,12 +32941,12 @@ var Education = function (_Component) {
               { className: 'row' },
               _react2.default.createElement(
                 'div',
-                { className: 'col m6' },
+                { className: 'col m6 s12 l6' },
                 _react2.default.createElement('img', { src: 'images/fullstack.jpg' })
               ),
               _react2.default.createElement(
                 'div',
-                { className: 'col m6' },
+                { className: 'col m6 s12 l6' },
                 _react2.default.createElement(
                   'h2',
                   { className: 'intro' },
@@ -32959,7 +32959,7 @@ var Education = function (_Component) {
                 ),
                 _react2.default.createElement(
                   'p',
-                  null,
+                  { className: 'intro' },
                   'Fullstack Academy of Code is an elite software engineering immersive program located in New York City. During my time here, I developed a deep understanding of Javascript. I spent over 600 hours learning Node.js, Express, React, Sequelize, PostgreSQL, and many more technologies. During the first six weeks, I worked closely with others on workshops where we pair programmed. The last six weeks focused on teamwork, where students worked on larger projects together. I learned how to use git with a team, practice agile development, and listen to and collaborate with others.'
                 )
               )
@@ -32969,12 +32969,12 @@ var Education = function (_Component) {
               { className: 'row' },
               _react2.default.createElement(
                 'div',
-                { className: 'col m6' },
+                { className: 'col m6 s12 l6' },
                 _react2.default.createElement('img', { src: 'images/csulb.jpg' })
               ),
               _react2.default.createElement(
                 'div',
-                { className: 'col m6' },
+                { className: 'col m6 s12 l6' },
                 _react2.default.createElement(
                   'h2',
                   { className: 'intro' },
@@ -32988,26 +32988,23 @@ var Education = function (_Component) {
                 _react2.default.createElement(
                   'h6',
                   { className: 'intro' },
-                  'GPA: 3.7'
+                  '3.78 GPA'
                 ),
                 _react2.default.createElement(
                   'p',
-                  null,
+                  { className: 'intro' },
                   'I will receive a Bachelor of the Arts in Film and Electronic Arts this fall. I completed a minor in computer science, and a second minor in web technologies and applications.'
                 ),
                 _react2.default.createElement(
                   'p',
-                  null,
-                  'President\'s List: Fall 2013, Fall 2014, Fall 2015, Fall 2016'
-                ),
-                _react2.default.createElement(
-                  'p',
-                  null,
+                  { className: 'intro' },
+                  'President\'s List: Fall 2013, Fall 2014, Fall 2015, Fall 2016',
+                  _react2.default.createElement('br', null),
                   'Dean\'s List: Spring 2014, Spring 2015, Spring 2016'
                 ),
                 _react2.default.createElement(
                   'p',
-                  null,
+                  { className: 'course-title' },
                   'Course Work'
                 ),
                 _react2.default.createElement(
@@ -33015,53 +33012,83 @@ var Education = function (_Component) {
                   null,
                   _react2.default.createElement(
                     'li',
-                    null,
-                    'Database Fundamentals',
-                    _react2.default.createElement(
-                      'li',
-                      null,
-                      'Focused on database design and MySQL'
-                    )
+                    { className: 'course' },
+                    'Database Fundamentals'
                   ),
                   _react2.default.createElement(
                     'li',
-                    null,
-                    'Intro to Software Engineering',
-                    _react2.default.createElement(
-                      'li',
-                      null,
-                      '\tLearned agile development etc.'
-                    )
+                    { className: 'indent intro' },
+                    'Fundamental topics on database management. Topics include entity-relationship models, database design, data definition language, the relational model, data manipulation language, database application programming and normalization. '
                   ),
                   _react2.default.createElement(
                     'li',
-                    null,
-                    'Object Oriented Programming and Data Structures',
-                    _react2.default.createElement(
-                      'li',
-                      null,
-                      'Learned agile development etc.'
-                    )
+                    { className: 'course' },
+                    'Intro to Software Engineering'
                   ),
                   _react2.default.createElement(
                     'li',
-                    null,
-                    ' C++ for Java Programmers',
-                    _react2.default.createElement(
-                      'li',
-                      null,
-                      'Learned agile development etc.'
-                    )
+                    { className: 'indent intro' },
+                    'Principles of software engineering, UML, modeling large software systems, requirements elicitation, object oriented analysis and design using UML, introduction to design patterns, implementation of large systems, software testing, project management, the software lifecycle. Semester long programming project.'
                   ),
                   _react2.default.createElement(
                     'li',
-                    null,
-                    ' Dynamic Web Sites',
-                    _react2.default.createElement(
-                      'li',
-                      null,
-                      'Learned agile development etc.'
-                    )
+                    { className: 'course' },
+                    'Object Oriented Programming and Data Structures'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'indent intro' },
+                    'Disciplined methods of design, coding and testing using the Java programming language. Data abstraction, object-oriented design. Introduction to data structures (linked lists, stacks, queues and trees.) Recursion. Sorting and searching. .'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'course' },
+                    ' C++ for Java Programmers'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'indent intro' },
+                    'Structured and Object Oriented Programming in C++.\u202F Common features and differences between Java and C++.\u202F Pointers, references, and memory management, stream I/O, classes, operator overloading, exception handling, STL. '
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'course' },
+                    'Dynamic Web Sites'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'indent intro' },
+                    'Dynamic Web design using modern tools. Creation of domains, using hosting services and content management systems. Website portability, usability and accessibility.'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'course' },
+                    'Introduction to Programming and Problem Solving'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'indent intro' },
+                    'Introduction to basic concepts of computer science and fundamental techniques for solving problems using the Python programming language. Variables, data types, conditional statements, loops and arrays. Programming style. Applications to numerical and non-numerical problems. '
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'course' },
+                    'Intermediate Web Design'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'indent intro' },
+                    'Intermediate HTML and CSS using Dreamweaver, following the W3C guidelines for coding. Web sites designed with usability and accessibility principles implemented.'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'course' },
+                    'Beginning Web Design'
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    { className: 'indent intro' },
+                    'Introduction to HTML and CSS using modern tools, following the W3C guidelines for coding. Web sites designed with usability and accessibility principles implemented. Overview of graphics, video, sound, JavaScript and Dreamweaver.'
                   )
                 )
               )
@@ -33168,109 +33195,113 @@ var Contact = function (_Component) {
             'div',
             { className: 'container' },
             _react2.default.createElement(
-              'h2',
-              { className: 'intro' },
-              'Contact'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'If you are interested in hiring me for a freelance position, would like to set up a chat, or are interested in me for a software engineering position at your company, please contact me below!'
-            ),
-            _react2.default.createElement(
               'div',
-              { className: 'col m12 s12' },
+              { className: 'row' },
               _react2.default.createElement(
-                'form',
-                { className: 'col s12', onSubmit: this.handleSubmit },
+                'div',
+                { className: 'col l6 offset-l3' },
                 _react2.default.createElement(
-                  'div',
-                  { className: 'row' },
+                  'h2',
+                  { className: 'heading' },
+                  'Contact'
+                ),
+                _react2.default.createElement(
+                  'p',
+                  { className: 'contact-info' },
+                  'If you are interested in hiring me for a freelance position, would like to set up a chat, or are interested in me for a software engineering position at your company, please contact me below!'
+                ),
+                _react2.default.createElement(
+                  'form',
+                  { className: 'col s12', onSubmit: this.handleSubmit },
                   _react2.default.createElement(
                     'div',
-                    { className: 'input-field col s12' },
-                    _react2.default.createElement('input', {
-                      id: 'name',
-                      type: 'text',
-                      name: 'name',
-                      value: this.state.name,
-                      required: true,
-                      onChange: function onChange(event) {
-                        return _this2.setState({ name: event.target.value });
-                      }
-                    }),
+                    { className: 'row' },
                     _react2.default.createElement(
-                      'label',
-                      { htmlFor: 'prod_name' },
-                      'Name *'
-                    )
-                  ),
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'input-field col s12' },
-                    _react2.default.createElement('input', {
-                      id: 'email',
-                      type: 'email',
-                      name: 'email',
-                      required: true,
-                      value: this.state.email,
-                      onChange: function onChange(event) {
-                        return _this2.setState({ email: event.target.value });
-                      }
-                    }),
+                      'div',
+                      { className: 'input-field col s12' },
+                      _react2.default.createElement('input', {
+                        id: 'name',
+                        type: 'text',
+                        name: 'name',
+                        value: this.state.name,
+                        required: true,
+                        onChange: function onChange(event) {
+                          return _this2.setState({ name: event.target.value });
+                        }
+                      }),
+                      _react2.default.createElement(
+                        'label',
+                        { htmlFor: 'prod_name' },
+                        'Name *'
+                      )
+                    ),
                     _react2.default.createElement(
-                      'label',
-                      { htmlFor: 'price' },
-                      'Email *'
-                    )
-                  ),
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'input-field col s12' },
-                    _react2.default.createElement('input', {
-                      id: 'subject',
-                      type: 'text',
-                      name: 'subject',
-                      value: this.state.subject,
-                      onChange: function onChange(event) {
-                        return _this2.setState({ subject: event.target.value });
-                      }
-                    }),
+                      'div',
+                      { className: 'input-field col s12' },
+                      _react2.default.createElement('input', {
+                        id: 'email',
+                        type: 'email',
+                        name: 'email',
+                        required: true,
+                        value: this.state.email,
+                        onChange: function onChange(event) {
+                          return _this2.setState({ email: event.target.value });
+                        }
+                      }),
+                      _react2.default.createElement(
+                        'label',
+                        { htmlFor: 'price' },
+                        'Email *'
+                      )
+                    ),
                     _react2.default.createElement(
-                      'label',
-                      { htmlFor: 'prod_name' },
-                      'Subject'
-                    )
-                  ),
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'input-field col s12' },
-                    _react2.default.createElement('textarea', {
-                      id: 'message',
-                      className: 'materialize-textarea',
-                      value: this.state.message,
-                      name: 'description',
-                      required: true,
-                      onChange: function onChange(event) {
-                        return _this2.setState({ message: event.target.value });
-                      }
-                    }),
+                      'div',
+                      { className: 'input-field col s12' },
+                      _react2.default.createElement('input', {
+                        id: 'subject',
+                        type: 'text',
+                        name: 'subject',
+                        value: this.state.subject,
+                        onChange: function onChange(event) {
+                          return _this2.setState({ subject: event.target.value });
+                        }
+                      }),
+                      _react2.default.createElement(
+                        'label',
+                        { htmlFor: 'prod_name' },
+                        'Subject'
+                      )
+                    ),
                     _react2.default.createElement(
-                      'label',
-                      { htmlFor: 'description' },
-                      'Message *'
-                    )
-                  ),
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'input-field col s12' },
+                      'div',
+                      { className: 'input-field col s12' },
+                      _react2.default.createElement('textarea', {
+                        id: 'message',
+                        className: 'materialize-textarea',
+                        value: this.state.message,
+                        name: 'description',
+                        required: true,
+                        onChange: function onChange(event) {
+                          return _this2.setState({ message: event.target.value });
+                        }
+                      }),
+                      _react2.default.createElement(
+                        'label',
+                        { htmlFor: 'description' },
+                        'Message *'
+                      )
+                    ),
                     _react2.default.createElement(
-                      'button',
-                      {
-                        type: 'submit',
-                        className: 'btn waves-effect waves-light addButton'
-                      },
-                      'Submit'
+                      'div',
+                      { className: 'input-field col s12' },
+                      _react2.default.createElement(
+                        'button',
+                        {
+                          type: 'submit',
+                          className: 'btn waves-effect waves-light addButton'
+                        },
+                        'Submit'
+                      )
                     )
                   )
                 )

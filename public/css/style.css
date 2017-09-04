@@ -108,8 +108,9 @@ footer.page-footer {
 
 .addButton {
   float: right;
-    background-color: #424242;
+   background-color: #ff8a65;;
 }
+
 
 .view{
   background-color: #ff8a65;
@@ -134,4 +135,32 @@ footer.page-footer {
 
 .project-link:hover {
   color: #ff8a65;
+}
+
+.heading{
+  font-family: 'Open Sans', sans-serif;
+  color: #424242;
+}
+
+.contact-info{
+  font-size: 1.2em;
+  font-family: 'Open Sans', sans-serif;
+  color: #424242;
+}
+
+.indent{
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.course {
+  font-size: 1.1em;
+  font-family: 'Open Sans', sans-serif;
+  color: #424242;
+}
+
+.course-title{
+   font-size: 1.3em;
+  font-family: 'Open Sans', sans-serif;
+  color: #424242;
 }

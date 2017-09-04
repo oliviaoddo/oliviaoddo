@@ -43,9 +43,7 @@ export default function Footer() {
             <h5 className="white-text">Contact</h5>
             <ul>
               <li>
-                <a className="white-text" href="#!">
-                  olivia.oddo@gmail.com
-                </a>
+                <a  className="white-text" href="mailto:olivia.oddo@gmail.com?Subject=Contact%Olivia" target="_top">olivia.oddo@gmail.com</a>
               </li>
               <li>
                 <a className="white-text" href="#!">

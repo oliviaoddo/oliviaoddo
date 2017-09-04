@@ -31,13 +31,15 @@ class Contact extends Component {
       <div className="grey lighten-4">
         <div className="section-pad">
           <div className="container">
-            <h2 className="intro">Contact</h2>
-            <p>
+
+            <div className='row'>
+            <div className="col l6 offset-l3">
+            <h2 className='heading'>Contact</h2>
+            <p className='contact-info'>
               If you are interested in hiring me for a freelance position, would
               like to set up a chat, or are interested in me for a software
               engineering position at your company, please contact me below!
             </p>
-            <div className="col m12 s12">
               <form className="col s12" onSubmit={this.handleSubmit}>
                 <div className="row">
                   <div className="input-field col s12">
@@ -105,6 +107,7 @@ class Contact extends Component {
                   </div>
                 </div>
               </form>
+            </div>
             </div>
           </div>
         </div>

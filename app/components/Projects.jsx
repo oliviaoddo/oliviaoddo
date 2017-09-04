@@ -15,7 +15,7 @@ class Projects extends Component {
       <div className="grey lighten-4">
         <div className="section-pad">
           <div className="container">
-            <h2 className="intro">Projects</h2>
+            <h2 className="heading">Projects</h2>
             <div className="row">
               <div className="col l4 m6 s12">
                 <div className="card">
