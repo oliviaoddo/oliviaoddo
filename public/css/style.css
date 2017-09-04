@@ -110,3 +110,12 @@ footer.page-footer {
   float: right;
     background-color: #424242;
 }
+
+.view{
+  background-color: #424242;
+}
+
+.btn:hover, .btn-large:hover {
+    background-color: #fff;
+    color: #424242;
+}

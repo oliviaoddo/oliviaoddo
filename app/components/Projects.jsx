@@ -15,12 +15,12 @@ class Projects extends Component {
       <div className="grey lighten-4">
         <div className="section-pad">
           <div className="container">
-          <h2 className='intro'>Projects</h2>
+            <h2 className="intro">Projects</h2>
             <div className="row">
               <div className="col m4">
                 <div className="card">
                   <div className="card-image waves-effect waves-block waves-light">
-                    <img className="activator" src="images/colors.png" />
+                    <img className="activator" src="images/hairconnect.png" />
                   </div>
                   <div className="card-content">
                     <span className="card-title activator grey-text text-darken-4">
@@ -30,8 +30,13 @@ class Projects extends Component {
                     </span>
                     <em>January 2017 - May 2017</em>
                     <p>
-                      <a href="#">View Project | </a>
-                      <a href="https://github.com/oliviaoddo" target="_blank">
+                      <a href="http://hairconnect.me/" target="_blank">
+                        View Project |{' '}
+                      </a>
+                      <a
+                        href="https://github.com/oliviaoddo/hair-connect"
+                        target="_blank"
+                      >
                         <i className="fa fa-github fa-lg" aria-hidden="true" />
                       </a>
                     </p>
@@ -65,8 +70,16 @@ class Projects extends Component {
                     </span>
                     <em>August 2017</em>
                     <p>
-                      <a href="#">View Project | </a>
-                      <a href="https://github.com/oliviaoddo" target="_blank">
+                      <a
+                        href="https://www.youtube.com/watch?v=J0Ua_ZlNbcs"
+                        target="_blank"
+                      >
+                        View Project |{' '}
+                      </a>
+                      <a
+                        href="https://github.com/HumApp/humclient"
+                        target="_blank"
+                      >
                         <i className="fa fa-github fa-lg" aria-hidden="true" />
                       </a>
                     </p>
@@ -99,7 +112,12 @@ class Projects extends Component {
               <div className="col m4">
                 <div className="card">
                   <div className="card-image waves-effect waves-block waves-light">
-                    <img className="activator" src="images/colors.png" />
+                    <a
+                      className="waves-effect waves-light modal-trigger"
+                      href="#modal1"
+                    >
+                      <img src="images/webpreview.png" />
+                    </a>
                   </div>
                   <div className="card-content">
                     <span className="card-title activator grey-text text-darken-4">
@@ -107,9 +125,13 @@ class Projects extends Component {
                     </span>
                     <em>August 2017</em>
                     <p>
-                      <a href="#">View Project | </a>
-                      <a href="#">Watch my Talk | </a>
-                      <a href="https://github.com/oliviaoddo" target="_blank">
+                      <a href="http://web-axs.herokuapp.com/" target="_blank">
+                        View Project |{' '}
+                      </a>
+                      <a
+                        href="https://github.com/oliviaoddo/accessibility"
+                        target="_blank"
+                      >
                         <i className="fa fa-github fa-lg" aria-hidden="true" />
                       </a>
                     </p>
@@ -146,8 +168,16 @@ class Projects extends Component {
                     </span>
                     <em>August 2017</em>
                     <p>
-                      <a href="#">View Project | </a>
-                      <a href="https://github.com/oliviaoddo" target="_blank">
+                      <a
+                        target="_blank"
+                        href="https://www.youtube.com/watch?v=b-23WjoX2ys"
+                      >
+                        View Project |{' '}
+                      </a>
+                      <a
+                        href="https://github.com/jalerner/nativeTrial"
+                        target="_blank"
+                      >
                         <i className="fa fa-github fa-lg" aria-hidden="true" />
                       </a>
                     </p>
@@ -158,10 +188,19 @@ class Projects extends Component {
                     </span>
                     <em>Fullstack Developer</em>
                     <p>
-                      The purpose of this project was to develop a better
-                      understanding of fullstack web development. The motivation
-                      behind my project idea was to provide a way for users and
-                      salons or stylists to connect.
+                      Leveraged React Native, Firebase, and geoLocation to
+                      provide customized and timely activity recommendations.
+                      For an instant activity, Seek populates activities that
+                      are currently open within half a mile that a user is
+                      expected to enjoy given prior interactions. The user then
+                      may swipe no and see additional actitivities, or swipe yes
+                      to navigate to directions. Users may also plan out a few
+                      events or entire day. Again, Seek will auto-populate
+                      recommended activites given category criteria (such as
+                      eat, entertainment, bars, etc.) and users may keep
+                      recommended activities or solicit another category
+                      activity with one click. Lastly, users can reference prior
+                      plans and share with other Seek users!
                     </p>
                     <p>
                       Seek was developed using React Native, Firebase, and the
@@ -173,7 +212,7 @@ class Projects extends Component {
               <div className="col m4">
                 <div className="card">
                   <div className="card-image waves-effect waves-block waves-light">
-                    <img className="activator" src="images/HUMM.png" />
+                    <img className="activator" src="images/graceshopper.png" />
                   </div>
                   <div className="card-content">
                     <span className="card-title activator grey-text text-darken-4">
@@ -183,8 +222,13 @@ class Projects extends Component {
                     </span>
                     <em>August 2017</em>
                     <p>
-                      <a href="#">View Project | </a>
-                      <a href="https://github.com/oliviaoddo" target="_blank">
+                      <a href="https://seacandy.herokuapp.com/" target="_blank">
+                        View Project |{' '}
+                      </a>
+                      <a
+                        href="https://github.com/oliviaoddo/grace-shopper"
+                        target="_blank"
+                      >
                         <i className="fa fa-github fa-lg" aria-hidden="true" />
                       </a>
                     </p>
@@ -215,7 +259,7 @@ class Projects extends Component {
               <div className="col m4">
                 <div className="card">
                   <div className="card-image waves-effect waves-block waves-light">
-                    <img className="activator" src="images/colors.png" />
+                    <img className="activator" src="images/nycdata.png" />
                   </div>
                   <div className="card-content">
                     <span className="card-title activator grey-text text-darken-4">
@@ -223,8 +267,10 @@ class Projects extends Component {
                     </span>
                     <em>July 2017</em>
                     <p>
-                      <a href="#">View Project | </a>
-                      <a href="https://github.com/oliviaoddo" target="_blank">
+                      <a
+                        href="https://github.com/oliviaoddo/nyc-map-data"
+                        target="_blank"
+                      >
                         <i className="fa fa-github fa-lg" aria-hidden="true" />
                       </a>
                     </p>
@@ -235,11 +281,7 @@ class Projects extends Component {
                     </span>
                     <em>Solo Fullstack Developer</em>
                     <p>
-                      Web Accessibility is a very important part of web
-                      development that is often times forgotten about. The
-                      purpose of this project is to provide people with a simple
-                      tips that will help them make their website's more
-                      accessible.
+                      The purpose of this project was to visualize various New York City data sets. I explored noise complaints, grafitti complaints, and food establishment complaints.
                     </p>
                     <p>
                       NYC Data was developed with Node.js, Express, MySQL,
@@ -253,32 +295,42 @@ class Projects extends Component {
               <div className="col m4">
                 <div className="card">
                   <div className="card-image waves-effect waves-block waves-light">
-                    <img className="activator" src="images/seek.png" />
+                    <a
+                      className="waves-effect waves-light modal-trigger"
+                      href="#modal2"
+                    >
+                      <img src="images/bekiind.png" />
+                    </a>
                   </div>
                   <div className="card-content">
                     <span className="card-title activator grey-text text-darken-4">
-                      BeKind<i className="material-icons right">more_vert</i>
+                      BeKiind<i className="material-icons right">more_vert</i>
                     </span>
                     <em>December 2016</em>
                     <p>
-                      <a href="https://github.com/oliviaoddo" target="_blank">
+                      <a
+                        href="https://github.com/oliviaoddo/BeKiind"
+                        target="_blank"
+                      >
                         <i className="fa fa-github fa-lg" aria-hidden="true" />
                       </a>
                     </p>
                   </div>
                   <div className="card-reveal">
                     <span className="card-title grey-text text-darken-4">
-                      BeKind<i className="material-icons right">close</i>
+                      BeKiind<i className="material-icons right">close</i>
                     </span>
                     <em>Solo Frontend Developer</em>
                     <p>
-                      The purpose of this project was to develop a better
-                      understanding of fullstack web development. The motivation
-                      behind my project idea was to provide a way for users and
-                      salons or stylists to connect.
+                      Promotes a more positive community and helps to better
+                      oneself. A user is assigned a task to go out and
+                      accomplish. They upload a photo and share their
+                      experience. Users can like other posts, however likes and
+                      posts are all anonymous.
                     </p>
                     <p>
-                      Be Kind was developed using Angular, Javascript, HTML, and CSS.
+                      BeKiind was developed using Angular, Javascript, HTML, and
+                      CSS.
                     </p>
                   </div>
                 </div>
@@ -286,7 +338,10 @@ class Projects extends Component {
               <div className="col m4">
                 <div className="card">
                   <div className="card-image waves-effect waves-block waves-light">
-                    <img className="activator" src="images/HUMM.png" />
+                    <img
+                      className="activator"
+                      src="images/amplifiedvoices.png"
+                    />
                   </div>
                   <div className="card-content">
                     <span className="card-title activator grey-text text-darken-4">
@@ -296,30 +351,33 @@ class Projects extends Component {
                     </span>
                     <em>September 2016 - December 2016</em>
                     <p>
-                      <a href="https://github.com/oliviaoddo" target="_blank">
+                      <a
+                        href="https://github.com/TheDirtySix/TheDirtySix"
+                        target="_blank"
+                      >
                         <i className="fa fa-github fa-lg" aria-hidden="true" />
                       </a>
                     </p>
                   </div>
                   <div className="card-reveal">
                     <span className="card-title grey-text text-darken-4">
-                      Amplified Voices<i className="material-icons right">close</i>
+                      Amplified Voices<i className="material-icons right">
+                        close
+                      </i>
                     </span>
                     <em>Frontend Developer</em>
                     <p>
-                      Grace Shopper is an ecommerce website that allows users to
-                      filter products by category, and add items to the cart.
+                      Competed in OpenAir's web accessibility contest where
+                      teams developed accessibile web sites for non profit
+                      organizations.
                     </p>
                     <p>
-                      I took the lead on designing the database, as well as
-                      implementing the models in Sequelize. I created API
-                      endpoints using Express, and developed front end
-                      components with React.js.
+                      I styled several html pages by using their color palette
+                      in an accessible way.
                     </p>
                     <p>
-                      Grace Shopper was created using Node.js, Express,
-                      React.js, Redux, Sequelize, PostgreSQL, Materialize, HTML,
-                      CSS, and Heroku.
+                      Amplified voices was developed with Wordpress, HTML, and
+                      CSS.
                     </p>
                   </div>
                 </div>
@@ -327,39 +385,150 @@ class Projects extends Component {
               <div className="col m4">
                 <div className="card">
                   <div className="card-image waves-effect waves-block waves-light">
-                    <img className="activator" src="images/colors.png" />
+                    <a
+                      className="waves-effect waves-light modal-trigger"
+                      href="#modal3"
+                    >
+                      <img src="images/webapp.png" />
+                    </a>
                   </div>
                   <div className="card-content">
                     <span className="card-title activator grey-text text-darken-4">
-                      Resturant Web App<i className="material-icons right">more_vert</i>
+                      Resturant Web App<i className="material-icons right">
+                        more_vert
+                      </i>
                     </span>
                     <em>September 2016 - December 2016</em>
                     <p>
-                      <a href="https://github.com/oliviaoddo" target="_blank">
+                      <a
+                        href="https://github.com/oliviaoddo/RestaurantWebApp"
+                        target="_blank"
+                      >
                         <i className="fa fa-github fa-lg" aria-hidden="true" />
                       </a>
                     </p>
                   </div>
                   <div className="card-reveal">
                     <span className="card-title grey-text text-darken-4">
-                      Resturant Web App<i className="material-icons right">close</i>
+                      Resturant Web App<i className="material-icons right">
+                        close
+                      </i>
                     </span>
                     <em>Fullstack Developer</em>
                     <p>
-                      Web Accessibility is a very important part of web
-                      development that is often times forgotten about. The
-                      purpose of this project is to provide people with a simple
-                      tips that will help them make their website's more
-                      accessible.
+                      An online restaurant ordering system, that allows a user
+                      to filter menu items by nutritional facts, add items to
+                      the cart, and checkout.
                     </p>
                     <p>
-                      NYC Data was developed with Node.js, Express, MySQL,
-                      Sequelize, and the Google Maps API.
+                      I was the lead Javascript developer, created the cart with
+                      local storage, and added the product filter feature.
                     </p>
+                    <p>Developed with PHP, Javascript, HTML, CSS.</p>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div
+          id="modal1"
+          ref={modal => {
+            $(modal).modal();
+          }}
+          className="modal"
+        >
+          <div className="modal-content">
+            <div className="video-container">
+              <iframe
+                width="853"
+                height="480"
+                src="//www.youtube.com/embed/KhEv8QpBEXk?rel=0"
+                frameBorder="1"
+                allowFullScreen
+              />
+            </div>
+          </div>
+          <div className="modal-footer">
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=KhEv8QpBEXk"
+              className="modal-action modal-close waves-effect waves-green btn-flat"
+            >
+              View on Youtube
+            </a>
+            <a
+              href="http://web-axs.herokuapp.com/"
+              target="_blank"
+              className="modal-action modal-close btn waves-effect waves-green view"
+            >
+              View Site
+            </a>
+          </div>
+        </div>
+        <div
+          id="modal2"
+          ref={modal => {
+            $(modal).modal();
+          }}
+          className="modal"
+        >
+          <div className="modal-content">
+            <div className="video-container">
+              <iframe
+                width="853"
+                height="480"
+                src="//www.youtube.com/embed/p6cPYuZMKWs?rel=0"
+                frameBorder="1"
+                allowFullScreen
+              />
+            </div>
+          </div>
+          <div className="modal-footer">
+            <a href="https://github.com/oliviaoddo/BeKiind" target="_blank">
+              <i className="fa fa-github fa-lg" aria-hidden="true" />
+            </a>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=p6cPYuZMKWs"
+              className="modal-action modal-close waves-effect waves-green btn-flat"
+            >
+              View on Youtube
+            </a>
+          </div>
+        </div>
+        <div
+          id="modal3"
+          ref={modal => {
+            $(modal).modal();
+          }}
+          className="modal"
+        >
+          <div className="modal-content">
+            <div className="video-container">
+              <iframe
+                width="853"
+                height="480"
+                src="//www.youtube.com/embed/VL-AgPZcFSI?rel=0"
+                frameBorder="1"
+                allowFullScreen
+              />
+            </div>
+          </div>
+          <div className="modal-footer">
+            <a
+              href="https://github.com/oliviaoddo/RestaurantWebApp"
+              target="_blank"
+            >
+              <i className="fa fa-github fa-lg" aria-hidden="true" />
+            </a>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=VL-AgPZcFSI&t=1s"
+              className="modal-action modal-close waves-effect waves-green btn-flat"
+            >
+              View on Youtube
+            </a>
           </div>
         </div>
       </div>

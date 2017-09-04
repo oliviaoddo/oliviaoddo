@@ -31317,6 +31317,8 @@ var _reactDom2 = _interopRequireDefault(_reactDom);
 
 var _reactRedux = __webpack_require__(21);
 
+var _reactRouterDom = __webpack_require__(23);
+
 var _personal = __webpack_require__(22);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -31437,7 +31439,7 @@ var Home = function (_Component) {
                     _react2.default.createElement(
                       'p',
                       { className: 'intro' },
-                      'Towards the end of my college career, I knew I wanted to be a software engineer. I was torn between teaching myself and risking my savings to attend Fullstack Academy in NYC. I decided that I needed to accelerate my learning by learing industry standards, and collaborating with peers on projects. I spent over 600 hours this past summer solifidying my skills, and it was the best decision I ever made. I am currently looking to start my software engineering career at a small company in San Francisco, CA where I can work closely with the product.'
+                      'Towards the end of my college career, I knew I wanted to be a software engineer. I was torn between teaching myself and risking my savings to attend Fullstack Academy in NYC. I decided that I needed to accelerate my learning in a professional setting where I would collarborate with peers on projects. I spent over 600 hours this past summer solifidying my skills, and I am so happy with my decision. I am currently looking to start my software engineering career at a startup in San Francisco, CA where I can work closely with the product.'
                     )
                   )
                 )
@@ -31649,243 +31651,31 @@ var Home = function (_Component) {
                   'Projects'
                 ),
                 _react2.default.createElement(
-                  'div',
-                  { className: 'col s12 m6' },
+                  _reactRouterDom.Link,
+                  { to: '/projects' },
                   _react2.default.createElement(
-                    'div',
-                    { className: 'icon-block' },
+                    'p',
+                    { className: 'center' },
                     _react2.default.createElement(
-                      'div',
-                      { className: 'card' },
-                      _react2.default.createElement(
-                        'div',
-                        { className: 'card-image waves-effect waves-block waves-light' },
-                        _react2.default.createElement('img', { className: 'activator', src: 'images/colors.png' })
-                      ),
-                      _react2.default.createElement(
-                        'div',
-                        { className: 'card-content' },
-                        _react2.default.createElement(
-                          'span',
-                          { className: 'card-title activator grey-text text-darken-4' },
-                          'Card Title',
-                          _react2.default.createElement(
-                            'i',
-                            { className: 'material-icons right' },
-                            'more_vert'
-                          )
-                        ),
-                        _react2.default.createElement(
-                          'p',
-                          null,
-                          _react2.default.createElement(
-                            'a',
-                            { href: '#' },
-                            'This is a link'
-                          )
-                        )
-                      ),
-                      _react2.default.createElement(
-                        'div',
-                        { className: 'card-reveal' },
-                        _react2.default.createElement(
-                          'span',
-                          { className: 'card-title grey-text text-darken-4' },
-                          'Card Title',
-                          _react2.default.createElement(
-                            'i',
-                            { className: 'material-icons right' },
-                            'close'
-                          )
-                        ),
-                        _react2.default.createElement(
-                          'p',
-                          null,
-                          'Here is some more information about this product that is only revealed once clicked on.'
-                        )
-                      )
+                      'em',
+                      null,
+                      'View all projects...'
                     )
                   )
                 ),
                 _react2.default.createElement(
                   'div',
-                  { className: 'col s12 m6' },
+                  { className: 'col s12 m12' },
                   _react2.default.createElement(
                     'div',
-                    { className: 'icon-block' },
-                    _react2.default.createElement(
-                      'div',
-                      { className: 'card' },
-                      _react2.default.createElement(
-                        'div',
-                        { className: 'card-image waves-effect waves-block waves-light' },
-                        _react2.default.createElement('img', { className: 'activator', src: 'images/web-axs.png' })
-                      ),
-                      _react2.default.createElement(
-                        'div',
-                        { className: 'card-content' },
-                        _react2.default.createElement(
-                          'span',
-                          { className: 'card-title activator grey-text text-darken-4' },
-                          'Card Title',
-                          _react2.default.createElement(
-                            'i',
-                            { className: 'material-icons right' },
-                            'more_vert'
-                          )
-                        ),
-                        _react2.default.createElement(
-                          'p',
-                          null,
-                          _react2.default.createElement(
-                            'a',
-                            { href: '#' },
-                            'This is a link'
-                          )
-                        )
-                      ),
-                      _react2.default.createElement(
-                        'div',
-                        { className: 'card-reveal' },
-                        _react2.default.createElement(
-                          'span',
-                          { className: 'card-title grey-text text-darken-4' },
-                          'Card Title',
-                          _react2.default.createElement(
-                            'i',
-                            { className: 'material-icons right' },
-                            'close'
-                          )
-                        ),
-                        _react2.default.createElement(
-                          'p',
-                          null,
-                          'Here is some more information about this product that is only revealed once clicked on.'
-                        )
-                      )
-                    )
-                  )
-                )
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'row' },
-                _react2.default.createElement(
-                  'div',
-                  { className: 'col s12 m6' },
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'icon-block' },
-                    _react2.default.createElement(
-                      'div',
-                      { className: 'card' },
-                      _react2.default.createElement(
-                        'div',
-                        { className: 'card-image waves-effect waves-block waves-light' },
-                        _react2.default.createElement('img', { className: 'activator', src: 'images/web-axs.png' })
-                      ),
-                      _react2.default.createElement(
-                        'div',
-                        { className: 'card-content' },
-                        _react2.default.createElement(
-                          'span',
-                          { className: 'card-title activator grey-text text-darken-4' },
-                          'Card Title',
-                          _react2.default.createElement(
-                            'i',
-                            { className: 'material-icons right' },
-                            'more_vert'
-                          )
-                        ),
-                        _react2.default.createElement(
-                          'p',
-                          null,
-                          _react2.default.createElement(
-                            'a',
-                            { href: '#' },
-                            'This is a link'
-                          )
-                        )
-                      ),
-                      _react2.default.createElement(
-                        'div',
-                        { className: 'card-reveal' },
-                        _react2.default.createElement(
-                          'span',
-                          { className: 'card-title grey-text text-darken-4' },
-                          'Card Title',
-                          _react2.default.createElement(
-                            'i',
-                            { className: 'material-icons right' },
-                            'close'
-                          )
-                        ),
-                        _react2.default.createElement(
-                          'p',
-                          null,
-                          'Here is some more information about this product that is only revealed once clicked on.'
-                        )
-                      )
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  'div',
-                  { className: 'col s12 m6' },
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'icon-block' },
-                    _react2.default.createElement(
-                      'div',
-                      { className: 'card' },
-                      _react2.default.createElement(
-                        'div',
-                        { className: 'card-image waves-effect waves-block waves-light' },
-                        _react2.default.createElement('img', { className: 'activator', src: 'images/web-axs.png' })
-                      ),
-                      _react2.default.createElement(
-                        'div',
-                        { className: 'card-content' },
-                        _react2.default.createElement(
-                          'span',
-                          { className: 'card-title activator grey-text text-darken-4' },
-                          'Card Title',
-                          _react2.default.createElement(
-                            'i',
-                            { className: 'material-icons right' },
-                            'more_vert'
-                          )
-                        ),
-                        _react2.default.createElement(
-                          'p',
-                          null,
-                          _react2.default.createElement(
-                            'a',
-                            { href: '#' },
-                            'This is a link'
-                          )
-                        )
-                      ),
-                      _react2.default.createElement(
-                        'div',
-                        { className: 'card-reveal' },
-                        _react2.default.createElement(
-                          'span',
-                          { className: 'card-title grey-text text-darken-4' },
-                          'Card Title',
-                          _react2.default.createElement(
-                            'i',
-                            { className: 'material-icons right' },
-                            'close'
-                          )
-                        ),
-                        _react2.default.createElement(
-                          'p',
-                          null,
-                          'Here is some more information about this product that is only revealed once clicked on.'
-                        )
-                      )
-                    )
+                    { className: 'video-container' },
+                    _react2.default.createElement('iframe', {
+                      width: '853',
+                      height: '480',
+                      src: '//www.youtube.com/embed/J0Ua_ZlNbcs?rel=0',
+                      frameBorder: '1',
+                      allowFullScreen: true
+                    })
                   )
                 )
               )
@@ -32015,7 +31805,7 @@ var Projects = function (_Component) {
                   _react2.default.createElement(
                     'div',
                     { className: 'card-image waves-effect waves-block waves-light' },
-                    _react2.default.createElement('img', { className: 'activator', src: 'images/colors.png' })
+                    _react2.default.createElement('img', { className: 'activator', src: 'images/hairconnect.png' })
                   ),
                   _react2.default.createElement(
                     'div',
@@ -32040,12 +31830,16 @@ var Projects = function (_Component) {
                       null,
                       _react2.default.createElement(
                         'a',
-                        { href: '#' },
-                        'View Project | '
+                        { href: 'http://hairconnect.me/', target: '_blank' },
+                        'View Project |',
+                        ' '
                       ),
                       _react2.default.createElement(
                         'a',
-                        { href: 'https://github.com/oliviaoddo', target: '_blank' },
+                        {
+                          href: 'https://github.com/oliviaoddo/hair-connect',
+                          target: '_blank'
+                        },
                         _react2.default.createElement('i', { className: 'fa fa-github fa-lg', 'aria-hidden': 'true' })
                       )
                     )
@@ -32115,12 +31909,19 @@ var Projects = function (_Component) {
                       null,
                       _react2.default.createElement(
                         'a',
-                        { href: '#' },
-                        'View Project | '
+                        {
+                          href: 'https://www.youtube.com/watch?v=J0Ua_ZlNbcs',
+                          target: '_blank'
+                        },
+                        'View Project |',
+                        ' '
                       ),
                       _react2.default.createElement(
                         'a',
-                        { href: 'https://github.com/oliviaoddo', target: '_blank' },
+                        {
+                          href: 'https://github.com/HumApp/humclient',
+                          target: '_blank'
+                        },
                         _react2.default.createElement('i', { className: 'fa fa-github fa-lg', 'aria-hidden': 'true' })
                       )
                     )
@@ -32170,7 +31971,14 @@ var Projects = function (_Component) {
                   _react2.default.createElement(
                     'div',
                     { className: 'card-image waves-effect waves-block waves-light' },
-                    _react2.default.createElement('img', { className: 'activator', src: 'images/colors.png' })
+                    _react2.default.createElement(
+                      'a',
+                      {
+                        className: 'waves-effect waves-light modal-trigger',
+                        href: '#modal1'
+                      },
+                      _react2.default.createElement('img', { src: 'images/webpreview.png' })
+                    )
                   ),
                   _react2.default.createElement(
                     'div',
@@ -32195,17 +32003,16 @@ var Projects = function (_Component) {
                       null,
                       _react2.default.createElement(
                         'a',
-                        { href: '#' },
-                        'View Project | '
+                        { href: 'http://web-axs.herokuapp.com/', target: '_blank' },
+                        'View Project |',
+                        ' '
                       ),
                       _react2.default.createElement(
                         'a',
-                        { href: '#' },
-                        'Watch my Talk | '
-                      ),
-                      _react2.default.createElement(
-                        'a',
-                        { href: 'https://github.com/oliviaoddo', target: '_blank' },
+                        {
+                          href: 'https://github.com/oliviaoddo/accessibility',
+                          target: '_blank'
+                        },
                         _react2.default.createElement('i', { className: 'fa fa-github fa-lg', 'aria-hidden': 'true' })
                       )
                     )
@@ -32279,12 +32086,19 @@ var Projects = function (_Component) {
                       null,
                       _react2.default.createElement(
                         'a',
-                        { href: '#' },
-                        'View Project | '
+                        {
+                          target: '_blank',
+                          href: 'https://www.youtube.com/watch?v=b-23WjoX2ys'
+                        },
+                        'View Project |',
+                        ' '
                       ),
                       _react2.default.createElement(
                         'a',
-                        { href: 'https://github.com/oliviaoddo', target: '_blank' },
+                        {
+                          href: 'https://github.com/jalerner/nativeTrial',
+                          target: '_blank'
+                        },
                         _react2.default.createElement('i', { className: 'fa fa-github fa-lg', 'aria-hidden': 'true' })
                       )
                     )
@@ -32310,7 +32124,7 @@ var Projects = function (_Component) {
                     _react2.default.createElement(
                       'p',
                       null,
-                      'The purpose of this project was to develop a better understanding of fullstack web development. The motivation behind my project idea was to provide a way for users and salons or stylists to connect.'
+                      'Leveraged React Native, Firebase, and geoLocation to provide customized and timely activity recommendations. For an instant activity, Seek populates activities that are currently open within half a mile that a user is expected to enjoy given prior interactions. The user then may swipe no and see additional actitivities, or swipe yes to navigate to directions. Users may also plan out a few events or entire day. Again, Seek will auto-populate recommended activites given category criteria (such as eat, entertainment, bars, etc.) and users may keep recommended activities or solicit another category activity with one click. Lastly, users can reference prior plans and share with other Seek users!'
                     ),
                     _react2.default.createElement(
                       'p',
@@ -32329,7 +32143,7 @@ var Projects = function (_Component) {
                   _react2.default.createElement(
                     'div',
                     { className: 'card-image waves-effect waves-block waves-light' },
-                    _react2.default.createElement('img', { className: 'activator', src: 'images/HUMM.png' })
+                    _react2.default.createElement('img', { className: 'activator', src: 'images/graceshopper.png' })
                   ),
                   _react2.default.createElement(
                     'div',
@@ -32354,12 +32168,16 @@ var Projects = function (_Component) {
                       null,
                       _react2.default.createElement(
                         'a',
-                        { href: '#' },
-                        'View Project | '
+                        { href: 'https://seacandy.herokuapp.com/', target: '_blank' },
+                        'View Project |',
+                        ' '
                       ),
                       _react2.default.createElement(
                         'a',
-                        { href: 'https://github.com/oliviaoddo', target: '_blank' },
+                        {
+                          href: 'https://github.com/oliviaoddo/grace-shopper',
+                          target: '_blank'
+                        },
                         _react2.default.createElement('i', { className: 'fa fa-github fa-lg', 'aria-hidden': 'true' })
                       )
                     )
@@ -32409,7 +32227,7 @@ var Projects = function (_Component) {
                   _react2.default.createElement(
                     'div',
                     { className: 'card-image waves-effect waves-block waves-light' },
-                    _react2.default.createElement('img', { className: 'activator', src: 'images/colors.png' })
+                    _react2.default.createElement('img', { className: 'activator', src: 'images/nycdata.png' })
                   ),
                   _react2.default.createElement(
                     'div',
@@ -32434,12 +32252,10 @@ var Projects = function (_Component) {
                       null,
                       _react2.default.createElement(
                         'a',
-                        { href: '#' },
-                        'View Project | '
-                      ),
-                      _react2.default.createElement(
-                        'a',
-                        { href: 'https://github.com/oliviaoddo', target: '_blank' },
+                        {
+                          href: 'https://github.com/oliviaoddo/nyc-map-data',
+                          target: '_blank'
+                        },
                         _react2.default.createElement('i', { className: 'fa fa-github fa-lg', 'aria-hidden': 'true' })
                       )
                     )
@@ -32465,7 +32281,7 @@ var Projects = function (_Component) {
                     _react2.default.createElement(
                       'p',
                       null,
-                      'Web Accessibility is a very important part of web development that is often times forgotten about. The purpose of this project is to provide people with a simple tips that will help them make their website\'s more accessible.'
+                      'The purpose of this project was to visualize various New York City data sets. I explored noise complaints, grafitti complaints, and food establishment complaints.'
                     ),
                     _react2.default.createElement(
                       'p',
@@ -32488,7 +32304,14 @@ var Projects = function (_Component) {
                   _react2.default.createElement(
                     'div',
                     { className: 'card-image waves-effect waves-block waves-light' },
-                    _react2.default.createElement('img', { className: 'activator', src: 'images/seek.png' })
+                    _react2.default.createElement(
+                      'a',
+                      {
+                        className: 'waves-effect waves-light modal-trigger',
+                        href: '#modal2'
+                      },
+                      _react2.default.createElement('img', { src: 'images/bekiind.png' })
+                    )
                   ),
                   _react2.default.createElement(
                     'div',
@@ -32496,7 +32319,7 @@ var Projects = function (_Component) {
                     _react2.default.createElement(
                       'span',
                       { className: 'card-title activator grey-text text-darken-4' },
-                      'BeKind',
+                      'BeKiind',
                       _react2.default.createElement(
                         'i',
                         { className: 'material-icons right' },
@@ -32513,7 +32336,10 @@ var Projects = function (_Component) {
                       null,
                       _react2.default.createElement(
                         'a',
-                        { href: 'https://github.com/oliviaoddo', target: '_blank' },
+                        {
+                          href: 'https://github.com/oliviaoddo/BeKiind',
+                          target: '_blank'
+                        },
                         _react2.default.createElement('i', { className: 'fa fa-github fa-lg', 'aria-hidden': 'true' })
                       )
                     )
@@ -32524,7 +32350,7 @@ var Projects = function (_Component) {
                     _react2.default.createElement(
                       'span',
                       { className: 'card-title grey-text text-darken-4' },
-                      'BeKind',
+                      'BeKiind',
                       _react2.default.createElement(
                         'i',
                         { className: 'material-icons right' },
@@ -32539,12 +32365,12 @@ var Projects = function (_Component) {
                     _react2.default.createElement(
                       'p',
                       null,
-                      'The purpose of this project was to develop a better understanding of fullstack web development. The motivation behind my project idea was to provide a way for users and salons or stylists to connect.'
+                      'Promotes a more positive community and helps to better oneself. A user is assigned a task to go out and accomplish. They upload a photo and share their experience. Users can like other posts, however likes and posts are all anonymous.'
                     ),
                     _react2.default.createElement(
                       'p',
                       null,
-                      'Be Kind was developed using Angular, Javascript, HTML, and CSS.'
+                      'BeKiind was developed using Angular, Javascript, HTML, and CSS.'
                     )
                   )
                 )
@@ -32558,7 +32384,10 @@ var Projects = function (_Component) {
                   _react2.default.createElement(
                     'div',
                     { className: 'card-image waves-effect waves-block waves-light' },
-                    _react2.default.createElement('img', { className: 'activator', src: 'images/HUMM.png' })
+                    _react2.default.createElement('img', {
+                      className: 'activator',
+                      src: 'images/amplifiedvoices.png'
+                    })
                   ),
                   _react2.default.createElement(
                     'div',
@@ -32583,7 +32412,10 @@ var Projects = function (_Component) {
                       null,
                       _react2.default.createElement(
                         'a',
-                        { href: 'https://github.com/oliviaoddo', target: '_blank' },
+                        {
+                          href: 'https://github.com/TheDirtySix/TheDirtySix',
+                          target: '_blank'
+                        },
                         _react2.default.createElement('i', { className: 'fa fa-github fa-lg', 'aria-hidden': 'true' })
                       )
                     )
@@ -32609,17 +32441,17 @@ var Projects = function (_Component) {
                     _react2.default.createElement(
                       'p',
                       null,
-                      'Grace Shopper is an ecommerce website that allows users to filter products by category, and add items to the cart.'
+                      'Competed in OpenAir\'s web accessibility contest where teams developed accessibile web sites for non profit organizations.'
                     ),
                     _react2.default.createElement(
                       'p',
                       null,
-                      'I took the lead on designing the database, as well as implementing the models in Sequelize. I created API endpoints using Express, and developed front end components with React.js.'
+                      'I styled several html pages by using their color palette in an accessible way.'
                     ),
                     _react2.default.createElement(
                       'p',
                       null,
-                      'Grace Shopper was created using Node.js, Express, React.js, Redux, Sequelize, PostgreSQL, Materialize, HTML, CSS, and Heroku.'
+                      'Amplified voices was developed with Wordpress, HTML, and CSS.'
                     )
                   )
                 )
@@ -32633,7 +32465,14 @@ var Projects = function (_Component) {
                   _react2.default.createElement(
                     'div',
                     { className: 'card-image waves-effect waves-block waves-light' },
-                    _react2.default.createElement('img', { className: 'activator', src: 'images/colors.png' })
+                    _react2.default.createElement(
+                      'a',
+                      {
+                        className: 'waves-effect waves-light modal-trigger',
+                        href: '#modal3'
+                      },
+                      _react2.default.createElement('img', { src: 'images/webapp.png' })
+                    )
                   ),
                   _react2.default.createElement(
                     'div',
@@ -32658,7 +32497,10 @@ var Projects = function (_Component) {
                       null,
                       _react2.default.createElement(
                         'a',
-                        { href: 'https://github.com/oliviaoddo', target: '_blank' },
+                        {
+                          href: 'https://github.com/oliviaoddo/RestaurantWebApp',
+                          target: '_blank'
+                        },
                         _react2.default.createElement('i', { className: 'fa fa-github fa-lg', 'aria-hidden': 'true' })
                       )
                     )
@@ -32684,16 +32526,157 @@ var Projects = function (_Component) {
                     _react2.default.createElement(
                       'p',
                       null,
-                      'Web Accessibility is a very important part of web development that is often times forgotten about. The purpose of this project is to provide people with a simple tips that will help them make their website\'s more accessible.'
+                      'An online restaurant ordering system, that allows a user to filter menu items by nutritional facts, add items to the cart, and checkout.'
                     ),
                     _react2.default.createElement(
                       'p',
                       null,
-                      'NYC Data was developed with Node.js, Express, MySQL, Sequelize, and the Google Maps API.'
+                      'I was the lead Javascript developer, created the cart with local storage, and added the product filter feature.'
+                    ),
+                    _react2.default.createElement(
+                      'p',
+                      null,
+                      'Developed with PHP, Javascript, HTML, CSS.'
                     )
                   )
                 )
               )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          {
+            id: 'modal1',
+            ref: function ref(modal) {
+              $(modal).modal();
+            },
+            className: 'modal'
+          },
+          _react2.default.createElement(
+            'div',
+            { className: 'modal-content' },
+            _react2.default.createElement(
+              'div',
+              { className: 'video-container' },
+              _react2.default.createElement('iframe', {
+                width: '853',
+                height: '480',
+                src: '//www.youtube.com/embed/KhEv8QpBEXk?rel=0',
+                frameBorder: '1',
+                allowFullScreen: true
+              })
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'modal-footer' },
+            _react2.default.createElement(
+              'a',
+              {
+                target: '_blank',
+                href: 'https://www.youtube.com/watch?v=KhEv8QpBEXk',
+                className: 'modal-action modal-close waves-effect waves-green btn-flat'
+              },
+              'View on Youtube'
+            ),
+            _react2.default.createElement(
+              'a',
+              {
+                href: 'http://web-axs.herokuapp.com/',
+                target: '_blank',
+                className: 'modal-action modal-close btn waves-effect waves-green view'
+              },
+              'View Site'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          {
+            id: 'modal2',
+            ref: function ref(modal) {
+              $(modal).modal();
+            },
+            className: 'modal'
+          },
+          _react2.default.createElement(
+            'div',
+            { className: 'modal-content' },
+            _react2.default.createElement(
+              'div',
+              { className: 'video-container' },
+              _react2.default.createElement('iframe', {
+                width: '853',
+                height: '480',
+                src: '//www.youtube.com/embed/p6cPYuZMKWs?rel=0',
+                frameBorder: '1',
+                allowFullScreen: true
+              })
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'modal-footer' },
+            _react2.default.createElement(
+              'a',
+              { href: 'https://github.com/oliviaoddo/BeKiind', target: '_blank' },
+              _react2.default.createElement('i', { className: 'fa fa-github fa-lg', 'aria-hidden': 'true' })
+            ),
+            _react2.default.createElement(
+              'a',
+              {
+                target: '_blank',
+                href: 'https://www.youtube.com/watch?v=p6cPYuZMKWs',
+                className: 'modal-action modal-close waves-effect waves-green btn-flat'
+              },
+              'View on Youtube'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          {
+            id: 'modal3',
+            ref: function ref(modal) {
+              $(modal).modal();
+            },
+            className: 'modal'
+          },
+          _react2.default.createElement(
+            'div',
+            { className: 'modal-content' },
+            _react2.default.createElement(
+              'div',
+              { className: 'video-container' },
+              _react2.default.createElement('iframe', {
+                width: '853',
+                height: '480',
+                src: '//www.youtube.com/embed/VL-AgPZcFSI?rel=0',
+                frameBorder: '1',
+                allowFullScreen: true
+              })
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'modal-footer' },
+            _react2.default.createElement(
+              'a',
+              {
+                href: 'https://github.com/oliviaoddo/RestaurantWebApp',
+                target: '_blank'
+              },
+              _react2.default.createElement('i', { className: 'fa fa-github fa-lg', 'aria-hidden': 'true' })
+            ),
+            _react2.default.createElement(
+              'a',
+              {
+                target: '_blank',
+                href: 'https://www.youtube.com/watch?v=VL-AgPZcFSI&t=1s',
+                className: 'modal-action modal-close waves-effect waves-green btn-flat'
+              },
+              'View on Youtube'
             )
           )
         )

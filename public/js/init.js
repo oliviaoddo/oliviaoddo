@@ -13,5 +13,7 @@
         // SCROLLSPY
         $('.scrollspy').scrollSpy();
         //SIDENAV
+        $('.modal').modal();
+        //MODAL
     }); // end of document ready
 })(jQuery); // end of jQuery name space

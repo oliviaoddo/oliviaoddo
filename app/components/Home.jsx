@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { fetchBlogs, setNav } from '../redux/personal';
 
 class Home extends Component {
@@ -71,10 +72,26 @@ class Home extends Component {
                       however I did not undertand how they could be applied to
                       the real world.
                     </p>
-                    <p className="intro">During my second year of college, I opened an ecommerce business selling sea glass jewelery. I designed the jewelery, photographed it, marketed it on social media, and developed the ecommerce website. This is when I discovered the practical application of computer science. I became obsessed with coding and spent 200 hours on Team Treehouse within the span of two months.
+                    <p className="intro">
+                      During my second year of college, I opened an ecommerce
+                      business selling sea glass jewelery. I designed the
+                      jewelery, photographed it, marketed it on social media,
+                      and developed the ecommerce website. This is when I
+                      discovered the practical application of computer science.
+                      I became obsessed with coding and spent 200 hours on Team
+                      Treehouse within the span of two months.
                     </p>
                     <p className="intro">
-                      Towards the end of my college career, I knew I wanted to be a software engineer. I was torn between teaching myself and risking my savings to attend Fullstack Academy in NYC. I decided that I needed to accelerate my learning by learing industry standards, and collaborating with peers on projects. I spent over 600 hours this past summer solifidying my skills, and it was the best decision I ever made. I am currently looking to start my software engineering career at a small company in San Francisco, CA where I can work closely with the product.
+                      Towards the end of my college career, I knew I wanted to
+                      be a software engineer. I was torn between teaching myself
+                      and risking my savings to attend Fullstack Academy in NYC.
+                      I decided that I needed to accelerate my learning in a
+                      professional setting where I would collarborate with peers
+                      on projects. I spent over 600 hours this past summer
+                      solifidying my skills, and I am so happy with my decision.
+                      I am currently looking to start my software engineering
+                      career at a startup in San Francisco, CA where I can work
+                      closely with the product.
                     </p>
                   </div>
                 </div>
@@ -200,127 +217,16 @@ class Home extends Component {
             <div className="container">
               <div className="row">
                 <h3 className="center intro">Projects</h3>
-                <div className="col s12 m6">
-                  <div className="icon-block">
-                    <div className="card">
-                      <div className="card-image waves-effect waves-block waves-light">
-                        <img className="activator" src="images/colors.png" />
-                      </div>
-                      <div className="card-content">
-                        <span className="card-title activator grey-text text-darken-4">
-                          Card Title<i className="material-icons right">
-                            more_vert
-                          </i>
-                        </span>
-                        <p>
-                          <a href="#">This is a link</a>
-                        </p>
-                      </div>
-                      <div className="card-reveal">
-                        <span className="card-title grey-text text-darken-4">
-                          Card Title<i className="material-icons right">
-                            close
-                          </i>
-                        </span>
-                        <p>
-                          Here is some more information about this product that
-                          is only revealed once clicked on.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col s12 m6">
-                  <div className="icon-block">
-                    <div className="card">
-                      <div className="card-image waves-effect waves-block waves-light">
-                        <img className="activator" src="images/web-axs.png" />
-                      </div>
-                      <div className="card-content">
-                        <span className="card-title activator grey-text text-darken-4">
-                          Card Title<i className="material-icons right">
-                            more_vert
-                          </i>
-                        </span>
-                        <p>
-                          <a href="#">This is a link</a>
-                        </p>
-                      </div>
-                      <div className="card-reveal">
-                        <span className="card-title grey-text text-darken-4">
-                          Card Title<i className="material-icons right">
-                            close
-                          </i>
-                        </span>
-                        <p>
-                          Here is some more information about this product that
-                          is only revealed once clicked on.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col s12 m6">
-                  <div className="icon-block">
-                    <div className="card">
-                      <div className="card-image waves-effect waves-block waves-light">
-                        <img className="activator" src="images/web-axs.png" />
-                      </div>
-                      <div className="card-content">
-                        <span className="card-title activator grey-text text-darken-4">
-                          Card Title<i className="material-icons right">
-                            more_vert
-                          </i>
-                        </span>
-                        <p>
-                          <a href="#">This is a link</a>
-                        </p>
-                      </div>
-                      <div className="card-reveal">
-                        <span className="card-title grey-text text-darken-4">
-                          Card Title<i className="material-icons right">
-                            close
-                          </i>
-                        </span>
-                        <p>
-                          Here is some more information about this product that
-                          is only revealed once clicked on.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col s12 m6">
-                  <div className="icon-block">
-                    <div className="card">
-                      <div className="card-image waves-effect waves-block waves-light">
-                        <img className="activator" src="images/web-axs.png" />
-                      </div>
-                      <div className="card-content">
-                        <span className="card-title activator grey-text text-darken-4">
-                          Card Title<i className="material-icons right">
-                            more_vert
-                          </i>
-                        </span>
-                        <p>
-                          <a href="#">This is a link</a>
-                        </p>
-                      </div>
-                      <div className="card-reveal">
-                        <span className="card-title grey-text text-darken-4">
-                          Card Title<i className="material-icons right">
-                            close
-                          </i>
-                        </span>
-                        <p>
-                          Here is some more information about this product that
-                          is only revealed once clicked on.
-                        </p>
-                      </div>
-                    </div>
+               <Link to='/projects'><p className="center"><em>View all projects...</em></p></Link>
+                <div className="col s12 m12">
+                  <div className="video-container">
+                    <iframe
+                      width="853"
+                      height="480"
+                      src="//www.youtube.com/embed/J0Ua_ZlNbcs?rel=0"
+                      frameBorder="1"
+                      allowFullScreen
+                    />
                   </div>
                 </div>
               </div>
