@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="col l6 s12">
             <h5 className="white-text intro">About</h5>
             <p className="grey-text text-lighten-4 intro">
-
+              I have a passion for fullstack web development. I love teaching myself new skills and working on side projects!
             </p>
           </div>
           <div className="col l3 s12">

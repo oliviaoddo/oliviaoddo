@@ -34,7 +34,7 @@ class Blog extends Component {
                               />
                             </div>
                             <div className="col s3 no-pad">
-                              <a className="github intro" href="#">
+                              <a className="github intro" href="https://medium.com/@oliviaoddo" target="_blank">
                                 <span>
                                   {data.User.ae4f1362796f.name}
                                 </span>
