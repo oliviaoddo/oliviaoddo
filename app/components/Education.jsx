@@ -18,7 +18,7 @@ class Education extends Component {
           <h2 className='heading'>Education</h2>
             <div className="row">
               <div className="col m6 s12 l6">
-                <img src="images/fullstack.jpg" />
+                <img className="responsive-img" src="images/fullstack.jpg" />
               </div>
               <div className="col m6 s12 l6">
                 <h2 className="intro"> Fullstack Academy of Code</h2>
@@ -39,7 +39,7 @@ class Education extends Component {
             </div>
             <div className="row">
               <div className="col m6 s12 l6">
-                <img src="images/csulb.jpg" />
+                <img  className="responsive-img" src="images/csulb.jpg" />
               </div>
               <div className="col m6 s12 l6">
                 <h2 className="intro">California State University, Long Beach</h2>

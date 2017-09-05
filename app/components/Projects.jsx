@@ -181,7 +181,8 @@ class Projects extends Component {
                   </div>
                 </div>
               </div>
-
+              </div>
+              <div className='row'>
               <div className="col l4 m6 s12">
                 <div className="card">
                   <div className="card-image waves-effect waves-block waves-light">
@@ -332,7 +333,8 @@ class Projects extends Component {
                   </div>
                 </div>
               </div>
-
+              </div>
+              <div className='row'>
               <div className="col l4 m6 s12">
                 <div className="card">
                   <div className="card-image waves-effect waves-block waves-light">
@@ -478,6 +480,7 @@ class Projects extends Component {
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
         </div>

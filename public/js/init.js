@@ -15,5 +15,6 @@
         //SIDENAV
         $('.modal').modal();
         //MODAL
+        $('.tooltipped').tooltip({delay: 50});
     }); // end of document ready
 })(jQuery); // end of jQuery name space

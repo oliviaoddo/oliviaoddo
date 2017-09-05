@@ -60,7 +60,7 @@ class Home extends Component {
                     <h6 className="center intro">
                       Fullstack Software Engineer
                     </h6>
-                    <h6 className="center">
+                    <h6 className="center intro headline">
                       Seeking development opportunies in SF, CA
                     </h6>
                     <p className="intro">

@@ -19,12 +19,19 @@ class Contact extends Component {
 
   handleSubmit = event => {
     event.preventDefault()
-    this.props.contact({name: this.state.name, email: this.state.email, subject: this.state.subject, message: this.state.subject}, this.successMessage)
+    this.props.contact({name: this.state.name, email: this.state.email, subject: this.state.subject, message: this.state.message}, this.successMessage, this.errorMessage)
   }
 
   successMessage = () => {
+    Materialize.toast('Email sent to Olivia Oddo!', 3000, 'rounded success')
     this.setState({name: '', email: '', subject: '', message: ''})
   }
+
+  errorMessage = () => {
+    Materialize.toast('Email failed to send to Olivia Oddo, send directly to olivia.oddo@gmail.com!', 5500, 'rounded error')
+    this.setState({name: '', email: '', subject: '', message: ''})
+  }
+
 
   render() {
     return (
@@ -35,11 +42,12 @@ class Contact extends Component {
             <div className='row'>
             <div className="col l6 offset-l3">
             <h2 className='heading'>Contact</h2>
-            <p className='contact-info'>
+            <p className='intro'>
               If you are interested in hiring me for a freelance position, would
               like to set up a chat, or are interested in me for a software
               engineering position at your company, please contact me below!
             </p>
+            <a className="github intro" href="mailto:olivia.oddo@gmail.com?Subject=Contact%20Olivia" target="_top">olivia.oddo@gmail.com</a>
               <form className="col s12" onSubmit={this.handleSubmit}>
                 <div className="row">
                   <div className="input-field col s12">
@@ -52,7 +60,7 @@ class Contact extends Component {
                       onChange={event =>
                         this.setState({ name: event.target.value })}
                     />
-                    <label htmlFor="prod_name">
+                    <label htmlFor="name">
                       Name *
                     </label>
                   </div>
@@ -66,7 +74,7 @@ class Contact extends Component {
                       onChange={event =>
                         this.setState({ email: event.target.value })}
                     />
-                    <label htmlFor="price">
+                    <label htmlFor="email">
                       Email *
                     </label>
                   </div>
@@ -79,7 +87,7 @@ class Contact extends Component {
                       onChange={event =>
                         this.setState({ subject: event.target.value })}
                     />
-                    <label htmlFor="prod_name">
+                    <label htmlFor="subject">
                       Subject
                     </label>
                   </div>
@@ -93,7 +101,7 @@ class Contact extends Component {
                       onChange={event =>
                         this.setState({ message: event.target.value })}
                     />
-                    <label htmlFor="description">
+                    <label htmlFor="message">
                       Message *
                     </label>
                   </div>
@@ -124,7 +132,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
   setColor: color => dispatch(setNav(color)),
-  contact: (message, success) => dispatch(postMessage(message, success)),
+  contact: (message, success, error) => dispatch(postMessage(message, success, error)),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Contact);

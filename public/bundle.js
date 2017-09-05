@@ -3109,14 +3109,14 @@ var fetchBlogs = exports.fetchBlogs = function fetchBlogs() {
   };
 };
 
-var postMessage = exports.postMessage = function postMessage(message, success) {
+var postMessage = exports.postMessage = function postMessage(message, success, error) {
   return function (dispatch) {
     return _axios2.default.post('/api/contact', message).then(function (res) {
       return res.data;
     }).then(function (response) {
       success();
     }).catch(function (err) {
-      return console.log(err);
+      error();
     });
   };
 };
@@ -31159,22 +31159,18 @@ function Footer() {
           { className: 'col l6 s12' },
           _react2.default.createElement(
             'h5',
-            { className: 'white-text' },
-            'Company Bio'
+            { className: 'white-text intro' },
+            'About'
           ),
-          _react2.default.createElement(
-            'p',
-            { className: 'grey-text text-lighten-4' },
-            'We are a team of college students working on this project like its our full time job. Any amount would help support and continue development on this project and is greatly appreciated.'
-          )
+          _react2.default.createElement('p', { className: 'grey-text text-lighten-4 intro' })
         ),
         _react2.default.createElement(
           'div',
           { className: 'col l3 s12' },
           _react2.default.createElement(
             'h5',
-            { className: 'white-text' },
-            'Settings'
+            { className: 'white-text intro' },
+            'Connect'
           ),
           _react2.default.createElement(
             'ul',
@@ -31183,36 +31179,43 @@ function Footer() {
               'li',
               null,
               _react2.default.createElement(
-                'a',
-                { className: 'white-text', href: '#!' },
-                'Link 1'
-              )
-            ),
-            _react2.default.createElement(
-              'li',
-              null,
+                'span',
+                { className: 'icon-pad' },
+                _react2.default.createElement(
+                  'a',
+                  { href: 'https://github.com/oliviaoddo', target: '_blank' },
+                  _react2.default.createElement('i', {
+                    className: 'fa fa-github fa-lg icon-white',
+                    'aria-hidden': 'true'
+                  })
+                )
+              ),
               _react2.default.createElement(
-                'a',
-                { className: 'white-text', href: '#!' },
-                'Link 2'
-              )
-            ),
-            _react2.default.createElement(
-              'li',
-              null,
+                'span',
+                { className: 'icon-pad' },
+                _react2.default.createElement(
+                  'a',
+                  {
+                    href: 'https://linkedin.com/in/olivia-oddo',
+                    target: '_blank'
+                  },
+                  _react2.default.createElement('i', {
+                    className: 'fa fa-linkedin-square fa-lg icon-white',
+                    'aria-hidden': 'true'
+                  })
+                )
+              ),
               _react2.default.createElement(
-                'a',
-                { className: 'white-text', href: '#!' },
-                'Link 3'
-              )
-            ),
-            _react2.default.createElement(
-              'li',
-              null,
-              _react2.default.createElement(
-                'a',
-                { className: 'white-text', href: '#!' },
-                'Link 4'
+                'span',
+                { className: 'icon-pad' },
+                _react2.default.createElement(
+                  'a',
+                  { href: 'https://medium.com/@oliviaoddo', target: '_blank' },
+                  _react2.default.createElement('i', {
+                    className: 'fa fa-medium fa-lg icon-white',
+                    'aria-hidden': 'true'
+                  })
+                )
               )
             )
           )
@@ -31222,7 +31225,7 @@ function Footer() {
           { className: 'col l3 s12' },
           _react2.default.createElement(
             'h5',
-            { className: 'white-text' },
+            { className: 'white-text intro' },
             'Contact'
           ),
           _react2.default.createElement(
@@ -31233,35 +31236,8 @@ function Footer() {
               null,
               _react2.default.createElement(
                 'a',
-                { className: 'white-text', href: 'mailto:olivia.oddo@gmail.com?Subject=Contact%Olivia', target: '_top' },
+                { className: 'white-text intro', href: 'mailto:olivia.oddo@gmail.com?Subject=Contact%20Olivia', target: '_top' },
                 'olivia.oddo@gmail.com'
-              )
-            ),
-            _react2.default.createElement(
-              'li',
-              null,
-              _react2.default.createElement(
-                'a',
-                { className: 'white-text', href: '#!' },
-                'Link 2'
-              )
-            ),
-            _react2.default.createElement(
-              'li',
-              null,
-              _react2.default.createElement(
-                'a',
-                { className: 'white-text', href: '#!' },
-                'Link 3'
-              )
-            ),
-            _react2.default.createElement(
-              'li',
-              null,
-              _react2.default.createElement(
-                'a',
-                { className: 'white-text', href: '#!' },
-                'Link 4'
               )
             )
           )
@@ -31409,7 +31385,7 @@ var Home = function (_Component) {
                     ),
                     _react2.default.createElement(
                       'h6',
-                      { className: 'center' },
+                      { className: 'center intro headline' },
                       'Seeking development opportunies in SF, CA'
                     ),
                     _react2.default.createElement(
@@ -32057,7 +32033,11 @@ var Projects = function (_Component) {
                     )
                   )
                 )
-              ),
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'row' },
               _react2.default.createElement(
                 'div',
                 { className: 'col l4 m6 s12' },
@@ -32311,7 +32291,11 @@ var Projects = function (_Component) {
                     )
                   )
                 )
-              ),
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'row' },
               _react2.default.createElement(
                 'div',
                 { className: 'col l4 m6 s12' },
@@ -32803,10 +32787,46 @@ var Blog = function (_Component) {
                     _react2.default.createElement(
                       'div',
                       null,
-                      _react2.default.createElement('img', {
-                        className: 'avatar',
-                        src: 'https://cdn-images-1.medium.com/fit/c/50/50/' + data.User.ae4f1362796f.imageId
-                      })
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'row' },
+                        _react2.default.createElement(
+                          'div',
+                          { className: 'col s3 no-pad' },
+                          _react2.default.createElement('img', {
+                            className: 'avatar',
+                            src: 'https://cdn-images-1.medium.com/fit/c/50/50/' + data.User.ae4f1362796f.imageId
+                          })
+                        ),
+                        _react2.default.createElement(
+                          'div',
+                          { className: 'col s3 no-pad' },
+                          _react2.default.createElement(
+                            'a',
+                            { className: 'github intro', href: '#' },
+                            _react2.default.createElement(
+                              'span',
+                              null,
+                              data.User.ae4f1362796f.name
+                            )
+                          ),
+                          _react2.default.createElement('br', null),
+                          _react2.default.createElement(
+                            'span',
+                            { className: 'intro' },
+                            Math.ceil(data.Post['8803337f54dc'].virtuals.readingTime),
+                            ' ',
+                            'min read \u2022',
+                            ' '
+                          ),
+                          _react2.default.createElement(
+                            'span',
+                            { className: 'intro' },
+                            ' ',
+                            prettyDate(new Date(data.Post['8803337f54dc'].createdAt))
+                          )
+                        )
+                      )
                     )
                   ),
                   _react2.default.createElement(
@@ -32821,20 +32841,22 @@ var Blog = function (_Component) {
                     { className: 'card-content' },
                     _react2.default.createElement(
                       'span',
-                      { className: 'card-title' },
+                      { className: 'card-title intro' },
                       data.Post['8803337f54dc'].title
                     ),
                     _react2.default.createElement(
-                      'p',
+                      'span',
                       { className: 'intro' },
                       data.Post['8803337f54dc'].content.subtitle
                     ),
+                    _react2.default.createElement('br', null),
                     _react2.default.createElement(
-                      'p',
+                      'em',
                       null,
                       _react2.default.createElement(
                         'a',
                         {
+                          className: 'github',
                           target: '_blank',
                           href: 'https://medium.com/@oliviaoddo/' + data.Post['8803337f54dc'].uniqueSlug
                         },
@@ -32845,7 +32867,24 @@ var Blog = function (_Component) {
                 )
               )
             )
-          ) : null
+          ) : _react2.default.createElement(
+            'div',
+            { className: 'container' },
+            _react2.default.createElement(
+              'div',
+              { className: 'row' },
+              _react2.default.createElement(
+                'div',
+                { className: 'col l6 offset-l3' },
+                ' ',
+                _react2.default.createElement(
+                  'div',
+                  { className: 'progress deep-orange lighten-3' },
+                  _react2.default.createElement('div', { className: 'indeterminate   deep-orange lighten-1' })
+                )
+              )
+            )
+          )
         )
       );
     }
@@ -32853,6 +32892,12 @@ var Blog = function (_Component) {
 
   return Blog;
 }(_react.Component);
+
+function prettyDate(date) {
+  var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+  return months[date.getUTCMonth()] + ' ' + date.getUTCDate() + ', ' + date.getUTCFullYear();
+}
 
 var mapStateToProps = function mapStateToProps(state) {
   return {
@@ -32942,7 +32987,7 @@ var Education = function (_Component) {
               _react2.default.createElement(
                 'div',
                 { className: 'col m6 s12 l6' },
-                _react2.default.createElement('img', { src: 'images/fullstack.jpg' })
+                _react2.default.createElement('img', { className: 'responsive-img', src: 'images/fullstack.jpg' })
               ),
               _react2.default.createElement(
                 'div',
@@ -32970,7 +33015,7 @@ var Education = function (_Component) {
               _react2.default.createElement(
                 'div',
                 { className: 'col m6 s12 l6' },
-                _react2.default.createElement('img', { src: 'images/csulb.jpg' })
+                _react2.default.createElement('img', { className: 'responsive-img', src: 'images/csulb.jpg' })
               ),
               _react2.default.createElement(
                 'div',
@@ -33159,10 +33204,16 @@ var Contact = function (_Component) {
 
     _this.handleSubmit = function (event) {
       event.preventDefault();
-      _this.props.contact({ name: _this.state.name, email: _this.state.email, subject: _this.state.subject, message: _this.state.subject }, _this.successMessage);
+      _this.props.contact({ name: _this.state.name, email: _this.state.email, subject: _this.state.subject, message: _this.state.message }, _this.successMessage, _this.errorMessage);
     };
 
     _this.successMessage = function () {
+      Materialize.toast('Email sent to Olivia Oddo!', 3000, 'rounded success');
+      _this.setState({ name: '', email: '', subject: '', message: '' });
+    };
+
+    _this.errorMessage = function () {
+      Materialize.toast('Email failed to send to Olivia Oddo, send directly to olivia.oddo@gmail.com!', 5500, 'rounded error');
       _this.setState({ name: '', email: '', subject: '', message: '' });
     };
 
@@ -33207,8 +33258,13 @@ var Contact = function (_Component) {
                 ),
                 _react2.default.createElement(
                   'p',
-                  { className: 'contact-info' },
+                  { className: 'intro' },
                   'If you are interested in hiring me for a freelance position, would like to set up a chat, or are interested in me for a software engineering position at your company, please contact me below!'
+                ),
+                _react2.default.createElement(
+                  'a',
+                  { className: 'github intro', href: 'mailto:olivia.oddo@gmail.com?Subject=Contact%20Olivia', target: '_top' },
+                  'olivia.oddo@gmail.com'
                 ),
                 _react2.default.createElement(
                   'form',
@@ -33231,7 +33287,7 @@ var Contact = function (_Component) {
                       }),
                       _react2.default.createElement(
                         'label',
-                        { htmlFor: 'prod_name' },
+                        { htmlFor: 'name' },
                         'Name *'
                       )
                     ),
@@ -33250,7 +33306,7 @@ var Contact = function (_Component) {
                       }),
                       _react2.default.createElement(
                         'label',
-                        { htmlFor: 'price' },
+                        { htmlFor: 'email' },
                         'Email *'
                       )
                     ),
@@ -33268,7 +33324,7 @@ var Contact = function (_Component) {
                       }),
                       _react2.default.createElement(
                         'label',
-                        { htmlFor: 'prod_name' },
+                        { htmlFor: 'subject' },
                         'Subject'
                       )
                     ),
@@ -33287,7 +33343,7 @@ var Contact = function (_Component) {
                       }),
                       _react2.default.createElement(
                         'label',
-                        { htmlFor: 'description' },
+                        { htmlFor: 'message' },
                         'Message *'
                       )
                     ),
@@ -33327,8 +33383,8 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch, ownProps) {
     setColor: function setColor(color) {
       return dispatch((0, _personal.setNav)(color));
     },
-    contact: function contact(message, success) {
-      return dispatch((0, _personal.postMessage)(message, success));
+    contact: function contact(message, success, error) {
+      return dispatch((0, _personal.postMessage)(message, success, error));
     }
   };
 };

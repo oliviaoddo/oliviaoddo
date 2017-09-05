@@ -7,58 +7,50 @@ export default function Footer() {
       <div className="container">
         <div className="row">
           <div className="col l6 s12">
-            <h5 className="white-text">Company Bio</h5>
-            <p className="grey-text text-lighten-4">
-              We are a team of college students working on this project like
-              its our full time job. Any amount would help support and continue
-              development on this project and is greatly appreciated.
+            <h5 className="white-text intro">About</h5>
+            <p className="grey-text text-lighten-4 intro">
+
             </p>
           </div>
           <div className="col l3 s12">
-            <h5 className="white-text">Settings</h5>
+            <h5 className="white-text intro">Connect</h5>
             <ul>
               <li>
-                <a className="white-text" href="#!">
-                  Link 1
-                </a>
-              </li>
-              <li>
-                <a className="white-text" href="#!">
-                  Link 2
-                </a>
-              </li>
-              <li>
-                <a className="white-text" href="#!">
-                  Link 3
-                </a>
-              </li>
-              <li>
-                <a className="white-text" href="#!">
-                  Link 4
-                </a>
-              </li>
+                    <span className='icon-pad'>
+                    <a href="https://github.com/oliviaoddo" target="_blank">
+                      <i
+                        className="fa fa-github fa-lg icon-white"
+                        aria-hidden="true"
+                      />
+                    </a>
+                  </span>
+                  <span className='icon-pad'>
+                    <a
+                      href="https://linkedin.com/in/olivia-oddo"
+                      target="_blank"
+                    >
+                      <i
+                        className="fa fa-linkedin-square fa-lg icon-white"
+                        aria-hidden="true"
+                      />
+                    </a>
+                    </span>
+                    <span className='icon-pad'>
+                    <a href="https://medium.com/@oliviaoddo" target="_blank">
+                      <i
+                        className="fa fa-medium fa-lg icon-white"
+                        aria-hidden="true"
+                      />
+                    </a>
+                    </span>
+                    </li>
             </ul>
           </div>
           <div className="col l3 s12">
-            <h5 className="white-text">Contact</h5>
+            <h5 className="white-text intro">Contact</h5>
             <ul>
               <li>
-                <a  className="white-text" href="mailto:olivia.oddo@gmail.com?Subject=Contact%Olivia" target="_top">olivia.oddo@gmail.com</a>
-              </li>
-              <li>
-                <a className="white-text" href="#!">
-                  Link 2
-                </a>
-              </li>
-              <li>
-                <a className="white-text" href="#!">
-                  Link 3
-                </a>
-              </li>
-              <li>
-                <a className="white-text" href="#!">
-                  Link 4
-                </a>
+                <a className="white-text intro" href="mailto:olivia.oddo@gmail.com?Subject=Contact%20Olivia" target="_top">olivia.oddo@gmail.com</a>
               </li>
             </ul>
           </div>

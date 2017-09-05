@@ -48,14 +48,14 @@ export const fetchBlogs = () => dispatch => {
     .catch(err => console.log(err));
 };
 
-export const postMessage = (message, success) => dispatch => {
+export const postMessage = (message, success, error) => dispatch => {
   return axios
     .post('/api/contact', message)
     .then(res => res.data)
     .then(response => {
       success()
     })
-    .catch(err => console.log(err));
+    .catch(err => {error()});
 };
 
 export const setNav = color => dispatch => {
