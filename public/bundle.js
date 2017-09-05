@@ -31162,7 +31162,11 @@ function Footer() {
             { className: 'white-text intro' },
             'About'
           ),
-          _react2.default.createElement('p', { className: 'grey-text text-lighten-4 intro' })
+          _react2.default.createElement(
+            'p',
+            { className: 'grey-text text-lighten-4 intro' },
+            'I have a passion for fullstack web development. I love teaching myself new skills and working on side projects!'
+          )
         ),
         _react2.default.createElement(
           'div',
@@ -32803,7 +32807,7 @@ var Blog = function (_Component) {
                           { className: 'col s3 no-pad' },
                           _react2.default.createElement(
                             'a',
-                            { className: 'github intro', href: '#' },
+                            { className: 'github intro', href: 'https://medium.com/@oliviaoddo', target: '_blank' },
                             _react2.default.createElement(
                               'span',
                               null,
