@@ -67,7 +67,7 @@ class Education extends Component {
                    <li className='course'> C++ for Java Programmers</li>
                   <li className='indent intro'>Structured and Object Oriented Programming in C++.  Common features and differences between Java and C++.  Pointers, references, and memory management, stream I/O, classes, operator overloading, exception handling, STL. </li>
 
-                  <li className='course'>Dynamic Web Sites</li>
+                  <li className='course'>Design of Dynamic Web Sites</li>
                   <li className='indent intro'>Dynamic Web design using modern tools. Creation of domains, using hosting services and content management systems. Website portability, usability and accessibility.
                   </li>
                   <li className='course'>Introduction to Programming and Problem Solving</li>

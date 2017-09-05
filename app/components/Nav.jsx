@@ -67,7 +67,7 @@ class Navigation extends Component {
                 >
                   <i className="material-icons icon-white">menu</i>
                 </a>
-                <ul className="right hide-on-med-and-down">
+                <ul className="right">
                   <li>
                     <a href="https://github.com/oliviaoddo" target="_blank">
                       <i

@@ -30990,7 +30990,7 @@ var Navigation = function (_Component) {
                 ),
                 _react2.default.createElement(
                   'ul',
-                  { className: 'right hide-on-med-and-down' },
+                  { className: 'right' },
                   _react2.default.createElement(
                     'li',
                     null,
@@ -31340,6 +31340,7 @@ var Home = function (_Component) {
               className: 'parallax'
             },
             _react2.default.createElement('img', {
+
               className: 'img1',
               src: 'images/background3.jpg',
               alt: 'Olivia Oddo in San Francisco'
@@ -31365,7 +31366,7 @@ var Home = function (_Component) {
                     'div',
                     { className: 'icon-block' },
                     _react2.default.createElement('img', {
-                      className: 'oliviaProfile',
+                      className: 'oliviaProfile responsive-img',
                       src: 'images/oliviaoddo-small.jpg',
                       alt: 'Olivia Oddo in San Francisco'
                     })
@@ -33102,7 +33103,7 @@ var Education = function (_Component) {
                   _react2.default.createElement(
                     'li',
                     { className: 'course' },
-                    'Dynamic Web Sites'
+                    'Design of Dynamic Web Sites'
                   ),
                   _react2.default.createElement(
                     'li',

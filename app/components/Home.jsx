@@ -33,6 +33,7 @@ class Home extends Component {
             className="parallax"
           >
             <img
+
               className="img1"
               src="images/background3.jpg"
               alt="Olivia Oddo in San Francisco"
@@ -47,7 +48,7 @@ class Home extends Component {
                 <div className="col s12 m6">
                   <div className="icon-block">
                     <img
-                      className="oliviaProfile"
+                      className="oliviaProfile responsive-img"
                       src="images/oliviaoddo-small.jpg"
                       alt="Olivia Oddo in San Francisco"
                     />
