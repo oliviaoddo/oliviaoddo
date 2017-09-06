@@ -170,12 +170,12 @@ class Projects extends Component {
                     <p>
                       Web Accessibility is a very important part of web
                       development that is often times forgotten about. The
-                      purpose of this project is to provide people with a simple
+                      purpose of this project is to provide people with simple
                       tips that will help them make their website's more
                       accessible.
                     </p>
                     <p>
-                      Web Axs was developed with React, Materialize, HTML, CSS,
+                      Web Axs was developed with React.js, Node.js, Express, Materialize, HTML, CSS,
                       and Heroku.
                     </p>
                   </div>
